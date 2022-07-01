@@ -5,7 +5,7 @@ author: Chris Moreh
 format: 
   revealjs:
     controls: true
-    self-contained: true
+    # self-contained: true
     controls-layout: edges
     controls-back-arrows: faded
     slide-number: true
