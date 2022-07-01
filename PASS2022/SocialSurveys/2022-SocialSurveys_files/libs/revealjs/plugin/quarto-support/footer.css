@@ -2,10 +2,11 @@
   display: block;
   position: fixed;
   bottom: 0;
-  right: 12px;
+  right: 25px;
   max-height: 3.5rem;
   height: 100%;
   width: auto;
+  z-index: 2;
 }
 
 .reveal .footer {

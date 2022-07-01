@@ -13,7 +13,7 @@ format:
     theme: night
     preview-links: true
     logo:  pics/ncllogo.svg
-    css: footer.css
+    # css: footer.css
     footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
 #resources:
  # - demo.pdf
