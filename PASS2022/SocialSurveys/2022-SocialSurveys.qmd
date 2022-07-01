@@ -47,5 +47,5 @@ head(cars)
 Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
 :::
 
-## {background-image="pics/Slide1.png" background-size="100%"}
+## {background-image="/..pics/Slide1.png" background-size="100%"}
 
