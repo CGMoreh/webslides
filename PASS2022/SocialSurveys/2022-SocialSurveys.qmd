@@ -49,6 +49,6 @@ Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-co
 
 ## {background-color="aquamarine"}
 
-## {background-color="black" background-image="https://placekitten.com/100/100" background-size="100px" background-repeat="repeat"}
+## {background-color="black" background-image="https://github.com/CGMoreh/webslides/blob/main/PASS2022/SocialSurveys/pics/Slide1.PNG" background-size="100px"}
 
 
