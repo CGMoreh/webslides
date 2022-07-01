@@ -1,0 +1,50 @@
+---
+title: "Social surveys"
+subtitle: <b>PARTNERS Academic Summer School 2022</b>
+author: Chris Moreh
+format: 
+  revealjs:
+    controls: true
+    controls-layout: edges
+    controls-back-arrows: faded
+    slide-number: true
+    preview-links: true
+    theme: night
+    preview-links: true
+    logo:  pics/ncllogo.svg
+    css: footer.css
+    footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
+#resources:
+ # - demo.pdf
+---
+
+## Hello, There
+
+This presentation will show you examples of what you can do with Quarto and [Reveal.js](https://revealjs.com), including:
+
+-   Presenting code and LaTeX equations
+-   Including computations in slide output
+-   Image, video, and iframe backgrounds
+-   Fancy transitions and animations
+-   Printing to PDF
+- [Link to open here](https://quarto.org/docs/presentations/revealjs/presenting.html)
+
+...and much more
+
+## Pretty Code {auto-animate="true"}
+
+-   Over 20 syntax highlighting themes available
+-   Default theme optimized for accessibility
+
+``` r
+# Define a server for the Shiny app
+cars <- cars
+head(cars)
+```
+
+::: footer
+Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
+:::
+
+## {background-image="/pics/Slide1.png" background-size="100%"}
+
