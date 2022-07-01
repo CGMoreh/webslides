@@ -1,23 +1,31 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$presentation-heading-color: #80AAD7;
+$presentation-title-slide-text-align: "left";
+
+
 .reveal .slide-logo {
   display: block;
   position: fixed;
   bottom: 0;
-  right: 25px;
-  max-height: 3.5rem;
+  right: 12px;
+  max-height: 2.2rem;
   height: 100%;
   width: auto;
-  z-index: 2;
 }
 
 .reveal .footer {
   display: block;
   position: fixed;
-  bottom: 13px;
+  bottom: 18px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  /* right: -55px; */
-  font-size: 20px;
+  font-size: 18px;
   z-index: 2;
 }
 
@@ -71,7 +79,7 @@
 
 @media screen and (max-width: 800px) {
   .reveal .slide-logo {
-    max-height: 1.1rem;
+    max-height: 4.1rem;
     bottom: -2px;
     right: 10px;
   }
@@ -109,3 +117,13 @@ html.print-pdf .reveal .slide-menu-button,
 html.print-pdf .reveal .slide-chalkboard-buttons {
   display: none;
 }
+
+
+
+
+/*-- scss:rules --*/
+
+details>summary {
+  font-size: 0.75em;
+}
+

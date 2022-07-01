@@ -1,23 +1,36 @@
 ---
-title: "Social surveys"
+title: "Title"
 subtitle: <b>PARTNERS Academic Summer School 2022</b>
 author: Chris Moreh
 format: 
   revealjs:
+    parallax-background-image: "https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg"
+    parallax-background-size: "2100px 1100px"
+    background-opacity: 0.2
     controls: true
     # self-contained: true
     controls-layout: edges
     controls-back-arrows: faded
     slide-number: true
     preview-links: true
-    theme: night
-    preview-links: true
+    theme: default
     logo:  pics/ncllogo.svg
     # css: footer.css
     footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
 #resources:
  # - demo.pdf
 ---
+
+
+## {background-color="white" background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" background-opacity=0.2}
+
+<h1><p style="text-align:center; left: 50%; margin-right: 50%; transform: translate(50%, 120%)"> 
+Title 
+</p></h1>
+
+<h3><p style="text-align:center;  transform: translate(0%, 200%)">
+PARTNERS Academic Summer School 2022
+</p></h3>
 
 ## Hello, There
 
@@ -49,6 +62,11 @@ Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-co
 
 ## Local file {background-image="././pics/Slide1.PNG" background-size="100%"}
 
-## Online file {background-color="white" background-image="https://github.com/CGMoreh/webslides/raw/main/PASS2022/SocialSurveys/pics/Slide1.PNG" background-size="100%"}
+```{r eval=FALSE}
+# Above I added "././" to go down from the main folder to the pics folder when it is rendered online
+```
 
+## Online file {background-gradient="radial-gradient(#283b95, #17b2c3)"}
+
+## {background-color="white" background-image="././pics/VIZ5.jpg" background-size="70%" background-opacity=0.32}
 
