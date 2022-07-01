@@ -47,8 +47,8 @@ head(cars)
 Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
 :::
 
-## {background-color="aquamarine"}
+## Local file {background-image="././pics/Slide1.PNG" background-size="100%"}
 
-## {background-color="black" background-image="https://github.com/CGMoreh/webslides/raw/main/PASS2022/SocialSurveys/pics/Slide1.PNG" background-size="100%"}
+## Online file {background-color="white" background-image="https://github.com/CGMoreh/webslides/raw/main/PASS2022/SocialSurveys/pics/Slide1.PNG" background-size="100%"}
 
 
