@@ -1,26 +1,29 @@
 ---
-title: "Title"
+title: "Social surveys"
 subtitle: <b>PARTNERS Academic Summer School 2022</b>
-author: Chris Moreh
+date: 5 July 2022
+author: <b>Dr. Chris Moreh</b>
+institute: "Newcastle University - Geography, Politics and Sociology"
 format: 
   revealjs:
-    parallax-background-image: "https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg"
-    parallax-background-size: "2100px 1100px"
-    background-opacity: 0.2
-    controls: true
+    title-slide-attributes:
+      data-background-iframe: "https://lab.hakim.se/particles/01/"
+      data-background-interactive: true
+     # data-background-image: "https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg"
+      data-background-opacity: "0.2"
+   # controls: true
     # self-contained: true
-    controls-layout: edges
+   # controls-layout: edges
     controls-back-arrows: faded
     slide-number: true
     preview-links: true
-    theme: default
+    theme: cgm.scss
     logo:  pics/ncllogo.svg
-    # css: footer.css
+    # css: cgm.css
     footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
 #resources:
  # - demo.pdf
 ---
-
 
 ## {background-color="white" background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" background-opacity=0.2}
 
