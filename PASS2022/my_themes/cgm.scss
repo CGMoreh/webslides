@@ -1,10 +1,9 @@
 /*-- scss:defaults --*/
 
-/*
-$body-bg: #191919;
-$body-color: #fff;
-$link-color: #4542fa;
-*/
+// Add theme-specific fonts
+
+
+
 
 $font-family-sans-serif:	"Source Sans Pro", Helvetica, sans-serif;
 $font-family-monospace:	monospace;
@@ -14,7 +13,7 @@ $presentation-line-height:	1.3;
 $body-bg:	#fff;
 $body-color:	#222;
 $text-muted:	lighten($body-color, 50%);
-$link-color:	#2a76dd;
+$link-color:	rgba(5,80,153,1);
 $link-color-hover:	lighten($link-color, 15%);
 $selection-bg:	lighten($link-color, 25%);
 $selection-color:	$body-bg;
@@ -22,7 +21,7 @@ $border-color:	lighten($body-color, 30%);
 $border-width:	1px;
 $border-radius:	3px;
 $presentation-heading-font:	$font-family-sans-serif;
-$presentation-heading-color:	#055099;
+$presentation-heading-color: rgb(5, 80, 153);
 $presentation-heading-line-height:	1.2;
 $presentation-heading-letter-spacing:	normal;
 $presentation-heading-text-transform:	none;
@@ -58,3 +57,32 @@ $dark-bg-code-color:	#ffa07a;
 }
 */
 
+
+
+.reveal .progress {
+    background: rgba(0,0,0,0);
+    color: rgba(181, 142, 13, 1);
+    height: 5px;
+}
+
+.reveal .footer p {
+	color: #A2A2A2;
+}
+
+.reveal .footer a {
+    color: rgba(5,80,153,.6);
+	font-weight: none;
+	bottom: 0;
+}
+
+
+.slide-logo {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 25px;
+  max-height: 1.5rem;
+  height: 100%;
+  width: auto;
+  z-index: 2;
+}
