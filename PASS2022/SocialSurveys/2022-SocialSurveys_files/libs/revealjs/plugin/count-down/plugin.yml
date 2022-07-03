@@ -1,0 +1,6 @@
+name: CountDown
+script: [countdown.js]
+config:
+  countdown:
+    defaultTime: 600
+    autostart: "no"

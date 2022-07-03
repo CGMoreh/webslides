@@ -8,10 +8,9 @@ format:
   revealjs:
     history: false
     revealjs-plugins:
-      - ../my_plugins/countdown
+     # - ../my_plugins/countdown
       - ../my_plugins/fullscreen
-      - ../my_plugins/elapsed
-    RevealCountDown: true
+     # - ../my_plugins/elapsed
     title-slide-attributes:
       data-background-color: "white"
       data-background-iframe: "https://lab.hakim.se/particles/01/"
@@ -28,7 +27,7 @@ format:
     #theme: "../my_themes/myplanet-revealjs-master/css/theme/source/myplanet.scss"
     #reveal-js-url: "../my_themes/myplanet-revealjs-master/js/"
     logo:  pics/ncllogo.svg
-    #css: ../my_themes/cgm.css
+    #css: ../my_themes/
     footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
 #resources:
  # - demo.pdf
