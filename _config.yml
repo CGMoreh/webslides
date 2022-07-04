@@ -1,4 +1,5 @@
-theme: jekyll-theme-minimal
-title: Web presentations
+theme: jekyll-theme-minima
+title: Presentation slides
 logo: /assets/img/vienna2.png
-description: This is a repository for presentation slides used at conferences and other events
+description: This is a repository for online slides and other materials used in conference presentations and other events.png
+show_downloads: false

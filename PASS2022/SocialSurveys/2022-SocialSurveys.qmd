@@ -23,17 +23,18 @@ format:
     controls-back-arrows: faded
     slide-number: false
     preview-links: true
-    theme: ../my_themes/cgm.scss
+    theme: [beige, ../my_themes/cgm.scss]
     #theme: "../my_themes/myplanet-revealjs-master/css/theme/source/myplanet.scss"
     #reveal-js-url: "../my_themes/myplanet-revealjs-master/js/"
     logo:  pics/ncllogo.svg
     #css: ../my_themes/
     footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
+    toc: true
 #resources:
  # - demo.pdf
 ---
 
-## {background-color="white" background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" background-opacity=0.2}
+## Title here {background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" background-opacity=0.2}
 
 <h1><p style="text-align:center; left: 50%; margin-right: 50%; transform: translate(50%, 120%)"> 
 Title 
@@ -56,7 +57,7 @@ This presentation will show you examples of what you can do with Quarto and [Rev
 
 ...and much more
 
-## Pretty Code {auto-animate="true"}
+## Pretty Code {display="none" auto-animate="true"}
 
 -   Over 20 syntax highlighting themes available
 -   Default theme optimized for accessibility
@@ -77,13 +78,9 @@ Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-co
 # Above I added "././" to go down from the main folder to the pics folder when it is rendered online
 ```
 
-## Online file
+## <span style="color:transparent"> Invisible title </span> {color=red background-color="white" background-image="././pics/VIZ5.jpg" background-size="70%" background-opacity=0.32}
 
-<section>
-  <countdown time="300" autostart="yes" />
-</section>
 
-## {background-color="white" background-image="././pics/VIZ5.jpg" background-size="70%" background-opacity=0.32}
 
 ## {fullscreen=true}
 

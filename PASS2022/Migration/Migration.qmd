@@ -1,0 +1,34 @@
+---
+title: "Migration"
+subtitle: <b>PARTNERS Academic Summer School 2022</b>
+date: 5 July 2022
+author: <b>Dr. Chris Moreh</b>
+institute: "Newcastle University - Geography, Politics and Sociology"
+format: 
+  revealjs:
+    history: false
+    #revealjs-plugins:
+     # - ../my_plugins/countdown
+     # - ../my_plugins/fullscreen
+     # - ../my_plugins/elapsed
+    title-slide-attributes:
+      data-background-color: "white"
+     # data-background-iframe: "https://lab.hakim.se/particles/01/"
+      data-background-interactive: true
+      data-background-image: "https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg"
+      data-background-opacity: "0.2"
+   # controls: true
+    # self-contained: true
+   # controls-layout: edges
+    controls-back-arrows: faded
+    slide-number: false
+    preview-links: true
+    theme: ../my_themes/cgm.scss
+    #reveal-js-url: "../my_themes/myplanet-revealjs-master/js/"
+    logo:  pics/ncllogo.svg
+    #css: ../my_themes/
+    footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
+#resources:
+ # - demo.pdf
+---
+
