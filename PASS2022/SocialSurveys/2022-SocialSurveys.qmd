@@ -12,7 +12,7 @@ format:
       - ../my_plugins/fullscreen
      # - ../my_plugins/elapsed
     title-slide-attributes:
-      data-background-color: "white"
+    #  data-background-color: "purple"
       data-background-iframe: "https://lab.hakim.se/particles/01/"
       data-background-interactive: true
      # data-background-image: "https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg"
@@ -57,7 +57,7 @@ This presentation will show you examples of what you can do with Quarto and [Rev
 
 ...and much more
 
-## Pretty Code {display="none" auto-animate="true"}
+## <span style Pretty Code {auto-animate="true"}
 
 -   Over 20 syntax highlighting themes available
 -   Default theme optimized for accessibility
