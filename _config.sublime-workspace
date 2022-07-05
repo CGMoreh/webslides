@@ -1,1 +1,204 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/A/GitHub/webslides",
+		"/A/GitHub/webslides/_layouts",
+		"/A/GitHub/webslides/PASS2022",
+		"/A/GitHub/webslides/PASS2022/my_themes",
+		"/A/GitHub/webslides/PASS2022/SocialSurveys"
+	],
+	"file_history":
+	[
+		"/A/GitHub/webslides/_config.yml",
+		"/A/GitHub/webslides/PASS2022/my_themes/cgm.scss",
+		"/A/GitHub/webslides/index.md",
+		"/A/GitHub/webslides/edit_tips.md",
+		"/A/GitHub/webslides/_layouts/default.html",
+		"/A/GitHub/webslides/PASS2022/SocialSurveys/2022-SocialSurveys_files/libs/revealjs/plugin/quarto-support/footer.css",
+		"/A/GitHub/webslides/README.md",
+		"/A/GitHub/webslides/PASS2022/SocialSurveys/2022-SocialSurveys_files/libs/revealjs/dist/reveal.css",
+		"/A/GitHub/webslides/PASS2022/my_themes/myplanet-revealjs-master/css/reveal.css",
+		"/A/GitHub/webslides/.gitignore",
+		"/A/GitHub/webslides/_config.sublime-project",
+		"/C/Users/moreh/AppData/Roaming/Sublime Text/Packages/User/@DEMO.sublime-build",
+		"/A/OneDrive - Newcastle University/WORK Newcastle/BoS/PGT/Agenda - Sociology MA Board of Studies - 13 January 2022.docx",
+		"/A/GitHub/webslides/PASS2022/my_plugins/fullscreen/plugin.yml",
+		"/A/GitHub/webslides/PASS2022/my_themes/cgm.css",
+		"/A/GitHub/webslides/PASS2022/SocialSurveys/2022-SocialSurveys.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "_config.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 3
+	}
+}
