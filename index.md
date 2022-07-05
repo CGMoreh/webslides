@@ -6,7 +6,7 @@ layout: default
 
 <br>
 
-### PARTNERS Academic Summer School
+### PARTNERS Academic Summer School (Newcastle University)
 
 * [(2022) Social Surveys](https://cgmoreh.github.io/webslides/PASS2022/SocialSurveys/2022-SocialSurveys)
 * (2022) Migration
