@@ -58,8 +58,8 @@ More information on <a href="https://ncl.instructure.com/courses/43837" target="
 
 ## Sociology and the social survey {background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" background-opacity=0.2}
 
-::: {.incremental}
--What is 'sociology'?
+:::{.incremental}
+- What is 'sociology'?
 - What truly exists in the social world? (ontology)
 - What and how can we know? (epistemology)
 - How do we find out? (methodology)
@@ -115,8 +115,8 @@ aimed to establish the extent and value of land holdings through sending commiss
 
 <br>
 
-- But the technique of 'complete enumeration' became increasingly challenged both on practical and theoretical grounds
 ::: {.incremental}
+- But the technique of 'complete enumeration' became increasingly challenged both on practical and theoretical grounds
 - (Re)Turn to statistical theory and mathematical approaches to understand social phenomena at societal scale
 - The concept of **probability** and its application to **sampling**
 :::
