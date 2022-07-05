@@ -24,11 +24,140 @@ format:
     slide-number: false
     preview-links: true
     theme: ../my_themes/cgm.scss
-    #reveal-js-url: "../my_themes/myplanet-revealjs-master/js/"
+    # reveal-js-url: "D:/MyGitHub/webslides/PASS2022/SocialSurveys/2022-SocialSurveys_files/libs/revealjs"
     logo:  pics/ncllogo.svg
     #css: ../my_themes/
     footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
+    incremental: true
 #resources:
  # - demo.pdf
 ---
 
+## Migration in sociology {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+- Migration has been central to the social sciences 
+    - Theories of belonging (assimilation, multiculturalism) - *Sociology* 
+    - Citizenship and Immigration Policy - *Politics*
+    - Immigration enforcement and border security - *Criminology*	
+- Traditionally, social sciences have studied fixity rather than mobility 
+
+
+
+
+## Definitions {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+International Organization for Migration definitions:
+
+- Migration: The movement of a person or a group of persons, either across an international border, or within a State. 
+     - any kind of movement of people, whatever its length, composition and causes
+     - includes migration of refugees, displaced persons, economic migrants, and persons moving for other purposes, including family reunification.
+     - **E**migration: leaving one nation-state for another 
+     - **Im**migration: moving into a new nation-state 
+- Migrant: an individual who has resided in a foreign country for more than one year irrespective of the causes (voluntary or involuntary) and the means (regular or irregular) used to migrate
+
+## Definitions {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+International Organization for Migration definitions:
+
+- Diaspora: the dispersal of people outside their "homeland" (literally: scatter across)
+- Transnationalism: ongoing contact and connections between sending and receiving societies
+- Assimilation: adaptation of one ethnic or social group - usually a minority - to another. Assimilation involves the subsuming of language, traditions, values, mores and behaviour or even fundamental vital interests.
+
+## Types of migration {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+- Intra-national vs. international?
+- Temporary vs. permanent?
+- Legal vs. illegal/Orderly vs. Irregular?
+     - "irregular" is preferable to "illegal" because the latter carries a criminal connotation. Sociologists usually restrict the use of the term "illegal migration" to cases of smuggling of migrants and trafficking in persons.
+- Voluntary vs. forced?
+- Skilled vs. unskilled?
+
+## Causes of migration {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+- Economic factors
+    - Higher wages; (better) job opportunities; etc.
+- Social factors
+    - Other migrants; social oppression; better life; etc.
+- Political factors
+    - War; persecution; absence of human rights; etc.
+- Environmental factors
+    - Natural disasters; scarce resources; etc.
+    
+## Impact of Migration  {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+- Impact on 'receiving' or 'host' society?
+- Impact on 'sending' or 'home' society?
+- Impact between states (multi-national issues)?
+- Impact on the migrant?
+- Impact on migrants?
+
+## Migration corridors
+
+![](././pics/movements.png)
+![](././pics/aom6.jpg){.absolute top=150 right=-30 width="150" height="200"}
+![](././pics/aom5.jpg){.absolute bottom=60 right=-30 width="150" height="200"}
+
+## Global tendencies {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+1. The **globalization** of migration
+2. The **differentiation** of migration
+3. The **changing direction** of dominant migration flows
+4. The proliferation of **migration transition**
+5. The **feminization** of labour migration
+6. The increasing **politicization** of migration
+7. The **climatization** of migration
+
+## Globalization {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+- more and more countries significantly affected by international migration
+- an increasingly diverse array of source countries
+- entrants from a broad spectrum of economic, social and cultural backgrounds
+
+## Differentiation {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+- Not one type of migration, such as labour migration, family reunion, refugee movement or permanent settlement, but a whole range of types at once. 
+- Migratory chains which start with one type of movement often continue with other forms, despite (or often just because of) government efforts to stop or control the movement
+
+
+## Channging migration flows {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+- Following WW2 the pattern changed, and Europe shifted from being a sending region to becoming a receiving region
+- Other regions and countries of emigration emerged
+- Strengthening South-North migration 
+
+
+## Proliferation of migration transition {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+- when traditional lands of emigration become lands of immigration
+- Often preceded by transit migration 
+- States as diverse as Poland, Spain, Morocco, Mexico, the Dominican Republic, Turkey and South Korea are experiencing various stages and forms of a migration transition. 
+- But other countries, for example in Latin America, have experienced reverse migration transitions as they changed from immigration to emigration countries.
+
+
+## Feminization {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+- Traditionally many labour migration seen as male dominated 
+- Since the 1960s, women have not only played an increasing role in labour migration, but also the awareness of women's role in migration has grown. 
+- Today women workers form the majority in movements as diverse as those of Cape Verdeans to Italy, Filipinas to the Middle East and Thais to Japan. 
+
+
+## Politicization {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+- Frameworks of Managing and Regulating Migration- International Agreements:
+    - 1951 UN Convention Relating to the Status of Refugees
+    - 1967 UN Protocol Relating to the Status of Refugees 
+- U.K. Policies: 
+    - British Nationality Act, 1948, 1981 
+    - Commonwealth Immigrants Act, 1962, 1968 
+- Brexit
+
+
+## Conclusions and activities {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
+
+- Migration is a very broad topic
+- A very interdisciplinary topic
+- And one that requires a variety of methods to study
+
+- **Activities:**
+
+    - Watch the ten short ['Migration 101'](http://migrationmatters.me/course/migration-101/) series episodes on the Migration Matters webpage
+    - Watch the episodes in the [Six Impossible Ideas (After Brexit)](http://migrationmatters.me/course/six-ideas/) series on the Migration Matters webpage
