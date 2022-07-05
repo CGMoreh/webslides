@@ -38,9 +38,9 @@ format:
  # - demo.pdf
 ---
 
-## Canvas page {background-iframe="https://ncl.instructure.com/courses/43837"}
+## Canvas page {background-iframe="https://ncl.instructure.com/courses/43837" background-interactive=true}
 
-[Canvas page](https://ncl.instructure.com/courses/43837)
+[Canvas page](https://ncl.instructure.com/courses/43837/pages/tuesday-09-00-11-00-social-surveys?module_item_id=2296393)
 
 
 ## Title here {background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" background-opacity=0.2}
