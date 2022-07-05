@@ -383,39 +383,17 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-iframe="https://lab.hakim.se/particles/01/" data-background-interactive="true" data-background-opacity="0.2" class="center">
+<section id="title-slide" data-background-color="white" data-background-iframe="https://lab.hakim.se/particles/01/" data-background-interactive="true" data-background-opacity="0.2" class="center">
   <h1 class="title">Social surveys</h1>
   <p class="subtitle"><b>PARTNERS Academic Summer School 2022</b></p>
   <p class="author"><b>Dr.&nbsp;Chris Moreh</b></p>
   <p class="institute">Newcastle University - Geography, Politics and Sociology</p>
   <p class="date">5 July 2022</p>
 </section>
-<section id="TOC">
-<nav role="doc-toc"> 
-<h2 id="toc-title">Table of contents</h2>
-<ul>
-<li><a href="#/title-here" id="/toc-title-here">Title here</a></li>
-<li><a href="#/hello-there" id="/toc-hello-there">Hello, There</a></li>
-<li><a href="#/span-style-pretty-code" id="/toc-span-style-pretty-code">&lt;span style Pretty Code</a></li>
-<li><a href="#/local-file" id="/toc-local-file">Local file</a></li>
-<li><a href="#/invisible-title" id="/toc-invisible-title"><span style="color:transparent"> Invisible title </span></a></li>
-<li><a href="#/section" id="/toc-section"></a></li>
-</ul>
-</nav>
-</section>
 
 <section id="title-here" class="slide level2" data-background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" data-background-opacity="0.2">
 <h2>Title here</h2>
-<h1>
-<p style="text-align:center; left: 50%; margin-right: 50%; transform: translate(50%, 120%)">
-Title
-</p>
-</h1>
-<h3>
-<p style="text-align:center;  transform: translate(0%, 200%)">
-PARTNERS Academic Summer School 2022
-</p>
-</h3>
+<h3 id="heading">heading</h3>
 </section>
 <section id="hello-there" class="slide level2">
 <h2>Hello, There</h2>
@@ -430,32 +408,23 @@ PARTNERS Academic Summer School 2022
 </ul>
 <p>…and much more</p>
 </section>
-<section id="span-style-pretty-code" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">&lt;span style Pretty Code</h2>
-<ul>
-<li>Over 20 syntax highlighting themes available</li>
-<li>Default theme optimized for accessibility</li>
-</ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb1-1" class="hljs-ln-code"><a href="#cb1-1"></a><span class="co"># Define a server for the Shiny app</span></span>
-<span id="cb1-2" class="hljs-ln-code"><a href="#cb1-2"></a>cars <span class="ot">&lt;-</span> cars</span>
-<span id="cb1-3" class="hljs-ln-code"><a href="#cb1-3"></a><span class="fu">head</span>(cars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/output-formats/html-code.html#highlighting">Syntax Highlighting</a></p>
-</div>
-</section>
+
 <section id="local-file" class="slide level2" data-background-image="././pics/Slide1.PNG" data-background-size="100%">
 <h2>Local file</h2>
 <div class="cell">
 
 </div>
 </section>
-<section id="invisible-title" class="slide level2" color="red" data-background-color="white" data-background-image="././pics/VIZ5.jpg" data-background-size="70%" data-background-opacity="0.32">
+<section id="invisible-title" class="slide level2" data-background-image="././pics/VIZ5.jpg" data-background-size="70%" data-background-opacity="0.32">
 <h2><span style="color:transparent"> Invisible title </span></h2>
 </section>
 <section id="section" class="slide level2" data-fullscreen="true">
 <h2></h2>
 <iframe class="stretch" data-src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d61206.89156051744!2d-151.77366863890407!3d-16.50433878928727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1467468929561">
 </iframe>
+</section>
+<section id="title" class="slide level2">
+<h2>Title</h2>
 
 <img src="pics/ncllogo.svg" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://chrismoreh.com">chrismoreh.com</a> | <a href="mailto:%20chris.moreh@newcastle.ac.uk">chris.moreh@newcastle.ac.uk</a></p>
@@ -471,7 +440,6 @@ PARTNERS Academic Summer School 2022
   <script src="2022-SocialSurveys_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="2022-SocialSurveys_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="2022-SocialSurveys_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="2022-SocialSurveys_files/libs/revealjs/plugin/reveal-fullscreen/fullscreen.js"></script>
   <script src="2022-SocialSurveys_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -486,7 +454,7 @@ PARTNERS Academic Summer School 2022
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
 'smaller': false,
 'pdfSeparateFragments': false,
@@ -497,7 +465,7 @@ PARTNERS Academic Summer School 2022
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
@@ -619,14 +587,14 @@ PARTNERS Academic Summer School 2022
         previewLinks: true,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
-        transitionSpeed: 'default',
+        transitionSpeed: 'slow',
 
         // Transition style for full page slide backgrounds
         // (none/fade/slide/convex/concave/zoom)
-        backgroundTransition: 'none',
+        backgroundTransition: 'fade',
 
         // Number of slides away from the current that are visible
         viewDistance: 3,
@@ -664,7 +632,7 @@ PARTNERS Academic Summer School 2022
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealFullscreen, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
           RevealNotes,
