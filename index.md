@@ -9,4 +9,4 @@ layout: default
 ### PARTNERS Academic Summer School (Newcastle University)
 
 * [(2022) Social Surveys](https://cgmoreh.github.io/webslides/PASS2022/SocialSurveys/2022-SocialSurveys)
-* (2022) Migration
+* [(2022) Migration](https://cgmoreh.github.io/webslides/PASS2022/Migration/2022-Migration)

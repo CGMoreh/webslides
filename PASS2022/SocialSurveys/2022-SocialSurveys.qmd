@@ -23,7 +23,7 @@ format:
     controls-layout: edges
     controls-back-arrows: faded
     slide-number: false
-    preview-links: true
+    preview-links: false
     theme: [../my_themes/cgm.scss]
     #theme: "../my_themes/myplanet-revealjs-master/css/theme/source/myplanet.scss"
     #reveal-js-url: "../my_themes/myplanet-revealjs-master/js/"
@@ -31,24 +31,92 @@ format:
     #css: ../my_themes/
     footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
     toc: false
-    transition: slide
+    transition: fade
     background-transition: fade
     transition-speed: slow
 #resources:
  # - demo.pdf
 ---
 
-## Canvas page {background-iframe="https://ncl.instructure.com/courses/43837" background-interactive=true}
+## To Do List {.scrollable .smaller}
 
-[Canvas page](https://ncl.instructure.com/courses/43837/pages/tuesday-09-00-11-00-social-surveys?module_item_id=2296393)
+1. Read Rachel Ayrton's (2017) ['Time for a revival? A historical review of the social survey in Great Britain and the United States'](https://ncl.instructure.com/courses/43837/files/5761553/download) (National Centre for Research Methods, pp. 1-25)
+2. Attend the lecture on "Social Surveys"
+3. Prepare for the seminar discussions by doing the following:
+    * Come up with a sociologically relevant question that you believe can be answered through a social survey. How would you design your study, step by step?
+    * Are there any sociological questions that cannot be answered through social surveys?
+    * What are the advantages and limitations of survey methodology?
+    * Read about the Understanding Society survey <a href="https://www.understandingsociety.ac.uk/about/about-the-study" target="_blank" rel="noopener">here</a>  and listen to the podcast below in which researchers involved in designing the survey discuss its characteristics and their challenges:
+
+<p style="padding-left: 27px;"><iframe src="https://embed.acast.com/$/5c75694eed0b7c9b736851c2/building-understanding-society-from-surveys-to-data" width="90%" height="110px" allow="autoplay"></iframe></p>
+
+* What new terms and concepts have you learnt about from these sources?
+
+More information on <a href="https://ncl.instructure.com/courses/43837" target="_blank" rel="noopener">Canvas</a>
 
 
-## Title here {background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" background-opacity=0.2}
-
-### heading
+## Sociology and the social survey {background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" background-opacity=0.2}
 
 
 
+## A brief history {background-image="././pics/sumer.png" background-size=70% background-opacity=0.2}
+
+<br>
+
+- **Population counts** became an essential administrative task in ancient civilizations such as China, Egypt, Greece, Persia and Rome
+
+
+::: aside
+<p style="font-size:11px">A reconstruction of a ca. 3000 BCE Sumerian tablet, with modern numbers added.</p>
+<p style="font-size:11px">Source: Stigler (2016) The seven pillars of statistical wisdom, p. 24.</p>
+:::
+
+## A brief history {background-image="././pics/domesdaylist.png" background-size=70% background-opacity=0.3}
+
+<br>
+
+- **Population counts** became an essential administrative task in ancient civilizations such as China, Egypt, Greece, Persia and Rome
+- the Domesday Book of 1086: an early information gathering exercise in England
+
+
+::: {.notes}
+aimed to establish the extent and value of land holdings through sending commissioners to every manor
+:::
+
+## A brief history {background-image="././pics/census.jpg" background-size=40% background-opacity=0.4}
+
+<br>
+
+- **Population counts** became an essential administrative task in ancient civilizations such as China, Egypt, Greece, Persia and Rome
+- the Domesday Book of 1086: an early information gathering exercise in England
+- Britain’s first modern-day population census: 10 March 1801
+    - The emergence of ‘population’ as a meaningful concept
+    - A process of quantification that produced new “collective social entities”
+
+## A brief history {background-image="././pics/boothmap.jpg" background-size=100% background-opacity=0.4}
+
+<br>
+
+- **Population counts** became an essential administrative task in ancient civilizations such as China, Egypt, Greece, Persia and Rome
+- the Domesday Book of 1086: an early information gathering exercise in England
+- Britain’s first modern-day population census: 10 March 1801
+    - The emergence of ‘population’ as a meaningful concept
+    - A process of quantification that produced new “collective social entities”
+- Charles Booth’s “Life and Labour of the People of London” (1889)
+    - “the elaboration of an adequate technique for expressing qualitative concepts and arguments about society in precise numerical terms” (Abrams 1951:41)
+
+## A brief history {background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" background-opacity=0.2}
+
+<br>
+
+- **Population counts** became an essential administrative task in ancient civilizations such as China, Egypt, Greece, Persia and Rome
+- the Domesday Book of 1086: an early information gathering exercise in England
+- Britain’s first modern-day population census: 10 March 1801
+    - The emergence of ‘population’ as a meaningful concept
+    - A process of quantification that produced new “collective social entities”
+- Charles Booth’s “Life and Labour of the People of London” (1889)
+    - “the elaboration of an adequate technique for expressing qualitative concepts and arguments about society in precise numerical terms” (Abrams 1951:41)
+- But the technique of 'complete enumeration' became increasingly challenged
 
 
 ## Hello, There
