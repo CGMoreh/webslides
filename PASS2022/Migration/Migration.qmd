@@ -15,11 +15,11 @@ format:
       data-background-color: "white"
      # data-background-iframe: "https://lab.hakim.se/particles/01/"
       data-background-interactive: true
-      data-background-image: "https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg"
+      data-background-image: "././pics/VIZ5.jpg"
       data-background-opacity: "0.2"
-   # controls: true
-    # self-contained: true
-   # controls-layout: edges
+  # self-contained: true   
+   #controls: true
+   #controls-layout: edges
     controls-back-arrows: faded
     slide-number: false
     preview-links: true
