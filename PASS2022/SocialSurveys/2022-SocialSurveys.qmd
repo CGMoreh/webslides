@@ -34,6 +34,7 @@ format:
     transition: fade
     background-transition: fade
     transition-speed: slow
+    html-q-tags: true
 #resources:
  # - demo.pdf
 ---
@@ -109,57 +110,49 @@ aimed to establish the extent and value of land holdings through sending commiss
 
 <br>
 
-- **Population counts** became an essential administrative task in ancient civilizations such as China, Egypt, Greece, Persia and Rome
-- the Domesday Book of 1086: an early information gathering exercise in England
-- Britain’s first modern-day population census: 10 March 1801
-    - The emergence of ‘population’ as a meaningful concept
-    - A process of quantification that produced new “collective social entities”
-- Charles Booth’s “Life and Labour of the People of London” (1889)
-    - “the elaboration of an adequate technique for expressing qualitative concepts and arguments about society in precise numerical terms” (Abrams 1951:41)
-- But the technique of 'complete enumeration' became increasingly challenged
-
-
-## Hello, There
-
-This presentation will show you examples of what you can do with Quarto and [Reveal.js](https://revealjs.com), including:
-
--   Presenting code and LaTeX equations
--   Including computations in slide output
--   Image, video, and iframe backgrounds
--   Fancy transitions and animations
--   Printing to PDF
-- [Link to open here](https://quarto.org/docs/presentations/revealjs/presenting.html)
-
-...and much more
-
-## Pretty Code {visibility="hidden"}
-
--   Over 20 syntax highlighting themes available
--   Default theme optimized for accessibility
-
-``` r
-# Define a server for the Shiny app
-cars <- cars
-head(cars)
-```
-
-::: footer
-Learn more: [Syntax Highlighting](https://quarto.org/docs/output-formats/html-code.html#highlighting)
+- But the technique of 'complete enumeration' became increasingly challenged both on practical and theoretical grounds
+::: {.incremental}
+- (Re)Turn to statistical theory and mathematical approaches to understand social phenomena at societal scale
+- The concept of **probability** and its application to **sampling**
 :::
 
-## Local file {background-image="././pics/Slide1.PNG" background-size="100%"}
+## A brief history {background-image="././pics/galton.png" background-size=50% background-opacity=0.5}
 
-```{r eval=FALSE}
-# Above I added "././" to go down from the main folder to the pics folder when it is rendered online
-```
+<br>
 
-## <span style="color:transparent"> Invisible title </span> {background-image="././pics/VIZ5.jpg" background-size="70%" background-opacity=0.32}
+- But the technique of 'complete enumeration' became increasingly challenged both on practical and theoretical grounds
+- (Re)Turn to statistical theory and mathematical approaches to understand social phenomena at societal scale
+- The concept of **probability** and its application to **sampling**
+- Francis Galton (1822-1911): "perhaps the earliest piece of sociological research to be based on a questionnaire sent to a sample of a particular population" [(Goldthorpe 2021)](https://www-cambridge-org.libproxy.ncl.ac.uk/core/books/pioneers-of-sociological-science/english-statisticians/5D866434546F9CB25BF9099229F49D7E)
+
+## A brief history {background-image="././pics/galton.png" background-size=50% background-opacity=0.5}
+
+<br>
+
+- But the technique of 'complete enumeration' became increasingly challenged both on practical and theoretical grounds
+- (Re)Turn to statistical theory and mathematical approaches to understand social phenomena at societal scale
+- The concept of **probability** and its application to **sampling**
+- Francis Galton (1822-1911): "perhaps the earliest piece of sociological research to be based on a questionnaire sent to a sample of a particular population" [(Goldthorpe 2021)](https://www-cambridge-org.libproxy.ncl.ac.uk/core/books/pioneers-of-sociological-science/english-statisticians/5D866434546F9CB25BF9099229F49D7E)
+- Galton's commitment to the 'eugenics' project undermined his influence within sociology
+(cf. Hobhouse, Ginsberg and the institutionalisation of British sociology at the LSE)
+
+## Sampling {.smaller background-image="https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" background-opacity=0.2}
+
+<br>
+
+ - Anders Nicolai Kiaer (1838-1919):     
+    - collected a wide range of individual-level data (on over 80,000 individuals) on a national basis that were needed in preparation for a new social insurance act
+    - a shift from typological to population thinking
+    - representativeness as a sample that was a 'true miniature' of a population
+    - **purposive** or 'judgmental' sampling
+ - Arthur Lyon Bowley (1869-1957) and Jerzy Neyman (1894-1981):
+    - **stratified sampling**: using existing knowledge of the population to divide it into relatively homogeneous groups in some respects, then randomly sampling within groups
+    - **random sampling** as the best method to minimise sampling error
+
+## Sampling {visibility="hidden" background-image="././pics/sampling.png" background-size=80% background-opacity=1}
+
+## Questionnaires
 
 
-## {fullscreen=true}
-
-<iframe class="stretch" data-src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d61206.89156051744!2d-151.77366863890407!3d-16.50433878928727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1467468929561"></iframe>
-
-## Title
 
 
