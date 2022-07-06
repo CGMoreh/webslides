@@ -46,17 +46,23 @@
 	[
 		"/A/GitHub/webslides",
 		"/A/GitHub/webslides/_layouts",
-		"/A/GitHub/webslides/PASS2022",
-		"/A/GitHub/webslides/PASS2022/my_themes",
-		"/A/GitHub/webslides/PASS2022/SocialSurveys"
+		"/A/GitHub/webslides/_sass",
+		"/A/GitHub/webslides/assets",
+		"/A/GitHub/webslides/assets/js"
 	],
 	"file_history":
 	[
-		"/A/GitHub/webslides/_config.yml",
-		"/A/GitHub/webslides/PASS2022/my_themes/cgm.scss",
-		"/A/GitHub/webslides/index.md",
-		"/A/GitHub/webslides/edit_tips.md",
 		"/A/GitHub/webslides/_layouts/default.html",
+		"/A/GitHub/webslides/404.md",
+		"/A/GitHub/webslides/index.md",
+		"/A/GitHub/webslides/_sass/jekyll-theme-minimal.scss",
+		"/A/GitHub/webslides/_config.yml",
+		"/A/GitHub/webslides/_sass/rouge-github.scss",
+		"/A/GitHub/webslides/edit_tips.md",
+		"/A/GitHub/webslides/_layouts/post.html",
+		"/A/GitHub/webslides/_sass/minimal.scss",
+		"/A/GitHub/webslides/_sass/fonts.scss",
+		"/A/GitHub/webslides/PASS2022/my_themes/cgm.scss",
 		"/A/GitHub/webslides/PASS2022/SocialSurveys/2022-SocialSurveys_files/libs/revealjs/plugin/quarto-support/footer.css",
 		"/A/GitHub/webslides/README.md",
 		"/A/GitHub/webslides/PASS2022/SocialSurveys/2022-SocialSurveys_files/libs/revealjs/dist/reveal.css",
@@ -71,7 +77,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -85,6 +91,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"line",
+			"height",
+			"li",
+			"height",
+			"top",
+			"footer",
+			"wrapper"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -111,7 +124,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -148,7 +161,7 @@
 	"project": "_config.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
