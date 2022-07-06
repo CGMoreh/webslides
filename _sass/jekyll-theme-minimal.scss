@@ -206,7 +206,7 @@ hr {
 footer {
   width:270px;
   float:left;
-  position:absolute;
+  position:fixed;
   bottom:10px;
   top: 800px;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -222,7 +222,7 @@ footer {
 
   header, section, footer {
     float:none;
-    position:absolute;
+    position:static;
     width:auto;
   }
 
