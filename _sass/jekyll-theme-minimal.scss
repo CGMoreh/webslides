@@ -311,11 +311,13 @@ footer {
  
  
  .four_zero_four_bg h1{
- font-size:80px;
+    font-size:80px;
+    text-align: center;
  }
  
   .four_zero_four_bg h3{
        font-size:80px;
+       text-align: center;
        }
        
        .link_404{      
@@ -324,4 +326,8 @@ footer {
     background: #39ac31;
     margin: 20px 0;
     display: inline-block;}
-  .contant_box_404{ margin-top:-50px;}
+    
+  .contant_box_404{ 
+    margin-top:-50px;
+    text-align: center;
+  }
