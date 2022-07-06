@@ -72,7 +72,8 @@ International Organization for Migration definitions:
 
 ## Migration flows
 
-<iframe src="././pics/chord.gif" loading="lazy" style="width: 100%; height: 100%;"></iframe>
+<section data-background-iframe="././pics/chord.gif" loading="lazy" style="width: 100%; height: 100%;"
+     data-background-interactive></section>
 
 ## Types of migration {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
 
