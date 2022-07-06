@@ -8,7 +8,7 @@ layout: default
 
 ## Lectures, workshops, tutorials 
 
-#### PARTNERS Academic Summer School (Newcastle University)
+### &nbsp;&nbsp;PARTNERS Academic Summer School (Newcastle University)
 - [Social Surveys](https://cgmoreh.github.io/webslides/PASS2022/SocialSurveys/2022-SocialSurveys)
 - [Migration](https://cgmoreh.github.io/webslides/PASS2022/Migration/2022-Migration)
 
