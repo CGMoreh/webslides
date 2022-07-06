@@ -18,7 +18,7 @@ format:
       data-background-image: "././pics/VIZ5.jpg"
       data-background-opacity: "0.2"
   # self-contained: true   
-   #controls: true
+    controls: true
    #controls-layout: edges
     controls-back-arrows: faded
     slide-number: false
@@ -61,9 +61,13 @@ International Organization for Migration definitions:
 - Transnationalism: ongoing contact and connections between sending and receiving societies
 - Assimilation: adaptation of one ethnic or social group - usually a minority - to another. Assimilation involves the subsuming of language, traditions, values, mores and behaviour or even fundamental vital interests.
 
-## Migration stocks {title-visibility="hidden"}
+## Immigration
 
   <iframe src="https://ourworldindata.org/explorers/migration?tab=chart&facet=none&Metric=Number+of+international+immigrants&Period=Total&Sub-metric=Total&country=USA~DEU~FRA~GBR~SYR~TUR~YEM~IND~CAN&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+  
+## Emigration
+
+<iframe src="https://ourworldindata.org/explorers/migration?facet=none&Metric=Number+of+emigrants&Period=Total&Sub-metric=Total&country=USA~DEU~FRA~GBR~SYR~TUR~YEM~IND~CAN&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
 ## Types of migration {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
 
