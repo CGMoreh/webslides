@@ -102,7 +102,7 @@ International Organization for Migration definitions:
 - Impact on the migrant?
 - Impact on migrants?
 
-## Migration corridors
+## Migration corridors {visibility="hidden"}
 
 ![](././pics/movements.png)
 ![](././pics/aom6.jpg){.absolute top=150 right=-30 width="150" height="200"}
