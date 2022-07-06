@@ -154,7 +154,7 @@ aimed to establish the extent and value of land holdings through sending commiss
     - **stratified sampling**: using existing knowledge of the population to divide it into relatively homogeneous groups in some respects, then randomly sampling within groups
     - **random sampling** as the best method to minimise sampling error
 
-## Sampling {visibility="hidden" background-image="././pics/sampling.png" background-size=80% background-opacity=1}
+## <label style="display:none">>Sampling</label> {background-image="././pics/sampling.png" background-size=85% background-opacity=1}
 
 ## Social surveys in practice
 
