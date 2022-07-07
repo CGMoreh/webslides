@@ -2,7 +2,13 @@
 	"folders":
 	[
 		{
-			"path": "."
-		}
-	]
+			"path": ".",
+		},
+		{
+			"path": "reveal.js",
+		},
+		{
+			"path": "C:\\Users\\moreh\\Downloads\\Code\\Code"
+		},
+	],
 }
