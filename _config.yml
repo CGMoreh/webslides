@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-title: Presentation slides
+#title: Presentation slides
 logo: /assets/img/vienna2.png
 description: This is a repository for online slides and other materials used in conference presentations and other events.
 show_downloads: false

@@ -7,6 +7,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "reveal.js/node_modules/puppeteer/README.md",
+			"settings":
+			{
+				"buffer_size": 20976,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -19,6 +28,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax: ",
+				"Set Syntax: SCSS"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -44,25 +61,46 @@
 	},
 	"expanded_folders":
 	[
-		"/A/GitHub/webslides",
-		"/A/GitHub/webslides/_layouts",
-		"/A/GitHub/webslides/PASS2022",
-		"/A/GitHub/webslides/PASS2022/my_themes",
-		"/A/GitHub/webslides/PASS2022/SocialSurveys"
+		"/C/Users/moreh/Downloads/Code/Code",
+		"/C/Users/moreh/Downloads/Code/Code/css",
+		"/C/Users/moreh/Downloads/Code/Code/css/theme",
+		"/C/Users/moreh/Downloads/Code/Code/css/theme/source",
+		"/C/Users/moreh/Downloads/Code/Code/css/theme/template"
 	],
 	"file_history":
 	[
-		"/A/GitHub/webslides/_config.yml",
-		"/A/GitHub/webslides/PASS2022/my_themes/cgm.scss",
-		"/A/GitHub/webslides/index.md",
-		"/A/GitHub/webslides/edit_tips.md",
+		"/C/Users/moreh/Downloads/Code/Code/index.html",
+		"/A/GitHub/webslides/reveal.js/index.html",
+		"/C/Users/moreh/Downloads/Code/Code/css/theme/custom.css",
+		"/C/Users/moreh/Downloads/Code/Code/css/theme/source/custom.scss",
+		"/A/GitHub/webslides/reveal.js/css/reveal.scss",
+		"/C/Users/moreh/Downloads/Code/Code/css/reveal.scss",
+		"/C/Users/moreh/Downloads/Code/Code/README.md",
+		"/A/GitHub/webslides/reveal.js/README.md",
+		"/C/Users/moreh/Downloads/Code/Code/css/theme/README.md",
+		"/A/GitHub/webslides/reveal.js/css/theme/README.md",
+		"/A/OneDrive - Newcastle University/Software/reveal.js-master/reveal.js-master/index.html",
+		"/A/OneDrive - Newcastle University/Software/reveal.js-master/reveal.js-master/dist/reveal.css",
+		"/A/OneDrive - Newcastle University/Software/reveal.js-master/reveal.js-master/css/reveal.scss",
+		"/C/Users/moreh/AppData/Roaming/Sublime Text/Packages/User/Emmet.sublime-settings",
+		"/A/GitHub/webslides/_config.sublime-project",
+		"/A/OneDrive - Newcastle University/Software/reveal.js-master/reveal.js-master/README.md",
 		"/A/GitHub/webslides/_layouts/default.html",
+		"/A/GitHub/webslides/404.md",
+		"/A/GitHub/webslides/index.md",
+		"/A/GitHub/webslides/_sass/jekyll-theme-minimal.scss",
+		"/A/GitHub/webslides/_config.yml",
+		"/A/GitHub/webslides/_sass/rouge-github.scss",
+		"/A/GitHub/webslides/edit_tips.md",
+		"/A/GitHub/webslides/_layouts/post.html",
+		"/A/GitHub/webslides/_sass/minimal.scss",
+		"/A/GitHub/webslides/_sass/fonts.scss",
+		"/A/GitHub/webslides/PASS2022/my_themes/cgm.scss",
 		"/A/GitHub/webslides/PASS2022/SocialSurveys/2022-SocialSurveys_files/libs/revealjs/plugin/quarto-support/footer.css",
 		"/A/GitHub/webslides/README.md",
 		"/A/GitHub/webslides/PASS2022/SocialSurveys/2022-SocialSurveys_files/libs/revealjs/dist/reveal.css",
 		"/A/GitHub/webslides/PASS2022/my_themes/myplanet-revealjs-master/css/reveal.css",
 		"/A/GitHub/webslides/.gitignore",
-		"/A/GitHub/webslides/_config.sublime-project",
 		"/C/Users/moreh/AppData/Roaming/Sublime Text/Packages/User/@DEMO.sublime-build",
 		"/A/OneDrive - Newcastle University/WORK Newcastle/BoS/PGT/Agenda - Sociology MA Board of Studies - 13 January 2022.docx",
 		"/A/GitHub/webslides/PASS2022/my_plugins/fullscreen/plugin.yml",
@@ -71,7 +109,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -85,6 +123,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"controls",
+			"button",
+			"custom",
+			"line",
+			"height",
+			"li",
+			"height",
+			"top",
+			"footer",
+			"wrapper"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -107,11 +155,48 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "reveal.js/node_modules/puppeteer/README.md",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/MultiMarkdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -126,11 +211,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -148,7 +240,7 @@
 	"project": "_config.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -162,12 +254,12 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -178,18 +270,9 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
-		"last_automatic_layout":
-		[
-			[
-				0,
-				0,
-				1,
-				1
-			]
-		]
 	},
 	"show_minimap": true,
 	"show_open_files": true,

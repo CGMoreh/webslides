@@ -15,10 +15,11 @@ format:
       data-background-color: "white"
      # data-background-iframe: "https://lab.hakim.se/particles/01/"
       data-background-interactive: true
-      data-background-image: "././pics/VIZ5.jpg"
+      data-background-image: "././pics/chord.gif"
       data-background-opacity: "0.2"
+      data-background-size: 100vh
   # self-contained: true   
-   #controls: true
+    controls: true
    #controls-layout: edges
     controls-back-arrows: faded
     slide-number: false
@@ -42,8 +43,6 @@ format:
 - Traditionally, social sciences have studied fixity rather than mobility 
 
 
-
-
 ## Definitions {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
 
 International Organization for Migration definitions:
@@ -62,6 +61,18 @@ International Organization for Migration definitions:
 - Diaspora: the dispersal of people outside their "homeland" (literally: scatter across)
 - Transnationalism: ongoing contact and connections between sending and receiving societies
 - Assimilation: adaptation of one ethnic or social group - usually a minority - to another. Assimilation involves the subsuming of language, traditions, values, mores and behaviour or even fundamental vital interests.
+
+## Immigration
+
+  <iframe src="https://ourworldindata.org/explorers/migration?tab=chart&facet=none&Metric=Number+of+international+immigrants&Period=Total&Sub-metric=Total&country=USA~DEU~FRA~GBR~SYR~TUR~YEM~IND~CAN&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+  
+## Emigration
+
+<iframe src="https://ourworldindata.org/explorers/migration?facet=none&Metric=Number+of+emigrants&Period=Total&Sub-metric=Total&country=USA~DEU~FRA~GBR~SYR~TUR~YEM~IND~CAN&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+## Migration flows
+
+<iframe src="././pics/chord.gif" loading="lazy" style="width: 100%; height: 100%; border: 0px none; margin: 0 auto; display: block"></iframe>
 
 ## Types of migration {background-image="././pics/VIZ5.jpg" background-opacity=0.2}
 
@@ -91,7 +102,7 @@ International Organization for Migration definitions:
 - Impact on the migrant?
 - Impact on migrants?
 
-## Migration corridors
+## Migration corridors {visibility="hidden"}
 
 ![](././pics/movements.png)
 ![](././pics/aom6.jpg){.absolute top=150 right=-30 width="150" height="200"}
