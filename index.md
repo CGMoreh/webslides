@@ -4,12 +4,12 @@ layout: default
 
 <br>
 
-# <span style="text-decoration: underline">Presentations</span>
+# <span style="color:#78281f; text-decoration: underline; font-family: Garamond, serif;">PRESENTATIONS</span>
 
-## Lectures, workshops, tutorials 
+## <span style="color:#78281f; font-family: Garamond, serif;"> Lectures, workshops, tutorials</span>
 
-#### PARTNERS Academic Summer School (Newcastle University)
+&nbsp;&nbsp;#### PARTNERS Academic Summer School (Newcastle University)
 - [Social Surveys](https://cgmoreh.github.io/webslides/PASS2022/SocialSurveys/2022-SocialSurveys)
 - [Migration](https://cgmoreh.github.io/webslides/PASS2022/Migration/2022-Migration)
 
-## Conference presentations
+## <span style="color:#78281f; text-decoration: underline; font-family: Garamond, serif;"> Conference presentations </span>
