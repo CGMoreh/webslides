@@ -7,15 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "reveal.js/node_modules/puppeteer/README.md",
-			"settings":
-			{
-				"buffer_size": 20976,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -61,14 +52,12 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/moreh/Downloads/Code/Code",
-		"/C/Users/moreh/Downloads/Code/Code/css",
-		"/C/Users/moreh/Downloads/Code/Code/css/theme",
-		"/C/Users/moreh/Downloads/Code/Code/css/theme/source",
-		"/C/Users/moreh/Downloads/Code/Code/css/theme/template"
 	],
 	"file_history":
 	[
+		"/A/OneDrive - Newcastle University/ACADEMIC/PROJECTS/Replication/Teney_2016/eb_all.do",
+		"/A/OneDrive - Newcastle University/ACADEMIC/PROJECTS/Replication/20220915203554.md",
+		"/A/GitHub/webslides/reveal.js/node_modules/puppeteer/README.md",
 		"/C/Users/moreh/Downloads/Code/Code/index.html",
 		"/A/GitHub/webslides/reveal.js/index.html",
 		"/C/Users/moreh/Downloads/Code/Code/css/theme/custom.css",
@@ -123,6 +112,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"x_v7",
+			"y2_v7",
 			"controls",
 			"button",
 			"custom",
@@ -155,43 +146,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "reveal.js/node_modules/puppeteer/README.md",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20976,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/MultiMarkdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
-			]
 		}
 	],
 	"incremental_find":
@@ -211,18 +165,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -270,7 +217,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
