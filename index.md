@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# <span style="color:#78281f; font-family: Garamond, serif;">PRESENTATIONS!!!</span>
+# <span style="color:#78281f; font-family: Garamond, serif;">PRESENTATIONS</span>
 
 ## <span style="color:#78281f; font-family: Garamond, serif;"> Lectures, workshops, tutorials</span>
 
