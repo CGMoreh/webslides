@@ -1,0 +1,108 @@
+---
+title: |
+  | SOC2069
+  | Researching Social Life 1
+subtitle: <br><br> Module overview
+author: <br><br><br> <b>Dr. Chris Moreh</b>
+# institute: "Newcastle University - Geography, Politics and Sociology"
+format: 
+  revealjs:
+    history: false
+    #revealjs-plugins:
+     # - ../my_plugins/countdown
+     # - ../my_plugins/fullscreen
+     # - ../my_plugins/elapsed
+    title-slide-attributes:
+      data-background-color: "white"
+      data-background-iframe: "https://lab.hakim.se/particles/01/"
+      data-background-interactive: true
+    #  data-background-image: ../pics/chord.gif
+      data-background-opacity: "0.2"
+      data-background-size: 100vh
+  # self-contained: true   
+    controls: true
+   #controls-layout: edges
+    controls-back-arrows: faded
+    slide-number: false
+    preview-links: true
+    theme: ../my_themes/cgm.scss
+    #css: ../custon.css
+    # reveal-js-url: "D:/MyGitHub/webslides/PASS2022/SocialSurveys/2022-SocialSurveys_files/libs/revealjs"
+    logo:  "../pics/Res_Soc_Life_logo.png"
+    #css: ../my_themes/
+    #footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
+    incremental: false
+   # background-image: "https://www.ucl.ac.uk/epidemiology-health-care/sites/epidemiology_health_care/files/CeLSIUS_button.jpg" 
+    # background-opacity: 0.2
+    self-contained: true
+---
+
+```{r include=FALSE}
+# library(here)
+```
+
+## SOC2069 - Researching Social Life 1 {#soc2069---researching-social-life-1}
+
+<br><br><br><br>
+
+::: {.text-sm .fragment}
+Dr Chris Moreh
+
+E-mail: [chris.moreh\@newcastle.ac.uk](mailto:chris.moreh@newcastle.ac.uk)
+
+Room: HDB 4.106
+
+<br>
+
+Office Hours ([Book here](https://outlook.office365.com/owa/calendar/ChrisMorehofficehours@newcastle.onmicrosoft.com/bookings/))
+
+-   Tuesdays: 10am-12pm (online)
+-   Fridays: 10am-12pm (online/in person)
+:::
+
+## Your research training journey
+
+![](images/progress_1.png){width="321"}
+
+## Your research training journey
+
+![](images/progress_2.png)
+
+## 3
+
+-   chart 2: Venn diagram of the skills that the module aims to develop
+
+```{}
+```
+
+## Structure
+
+::: sectionhead
+[1 2 3]{style="opacity:0.25"} 4 [5 6]{style="opacity:0.25"}
+:::
+
+-   Structure of the module - table of topics
+-   more on those
+-   there's more still
+-   teaching methods - mention the role of the drop-in Q&A sessions
+
+## Readings
+
+-   general outline of the readings
+
+## Software and online training
+
+::: {.fragment .highlight-red}
+-   general installation requirements and guidance
+:::
+
+-   **mention difficullties for installation on Google Chrome machines; possible but probably too complicated for it to be worth it**
+-   show the R for Social Scientists training page
+
+## Assessment overview
+
+-   general intro and signpost the assessment guide document
+
+## 8
+
+-   some general closing information

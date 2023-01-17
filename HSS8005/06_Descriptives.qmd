@@ -1,0 +1,360 @@
+---
+title: |
+  | SOC2069
+  | Researching 
+  | Social Life 1
+subtitle: Quantitative data and descriptive statistics
+author: Dr. Chris Moreh
+format: 
+  revealjs:
+    history: false
+    # revealjs-plugins:
+    #  - ../my_plugins/attribution
+     # - ../my_plugins/countdown
+     # - ../my_plugins/fullscreen
+     # - ../my_plugins/elapsed
+    title-slide-attributes:
+      data-background-color: "white"
+      data-background-iframe: "https://cgmoreh.github.io/webslides/particles-bkg/particles.html"
+      data-background-interactive: true
+      data-background-opacity: "0.2"
+      data-background-size: 100vh
+      data-transition: "slide-out"
+      data-background-transition: "slide-out"
+    data-transition-speed: "default"
+    controls: true
+     #controls-layout: edges
+    controls-back-arrows: faded
+    slide-number: false
+    preview-links: true
+    theme: ../my_themes/cgm.scss
+    logo:  "../pics/Res_Soc_Life_logo.png"
+    incremental: false
+    self-contained: true
+bibliography: references.bib
+csl: ../../american-sociological-association.csl
+---
+
+## Outline {background-iframe="https://cgmoreh.github.io/webslides/particles-bkg/particles.html" background-opacity="0.2" transition="slide"}
+
+::: {.outlineslide .nonincremental}
+1.  Variables
+2.  Descriptive statistics
+:::
+
+##  {background-iframe="https://cgmoreh.github.io/webslides/particles-bkg/particles.html" background-opacity="0.2" transition="slide-in fade-out"}
+
+::: sectiontitle
+Variables
+:::
+
+## What is a *variable*?
+
+-   [Statistical methods help us determine the factors that explain **variability** among subjects/respondents]{.fragment .highlight-current-blue}
+-   [For instance, variation occurs from student to student in their grades. What factors are responsible for that variability?]{.fragment .highlight-current-blue}
+-   [Any characteristic that we can measure for each subject is called a **variable**]{.fragment .highlight-current-blue}
+-   [Variable are characteristics that can *vary* in value among subjects in a *sample* or *population*]{.fragment .highlight-current-blue}
+-   [Examples of variables are income last year, number of children or siblings, whether employed, gender, how much one likes ice-cream on a scale of 1 to 10, etc.]{.fragment .highlight-current-blue}
+-   [The values the variable can take form the **measurement scale**]{.fragment .highlight-current-blue}
+-   [For gender, for instance, the measurement scale consists of the two (or more) labels, (female, male, other). For number of children/siblings, it would be (0, 1, 2, 3, 4, ...)]{.fragment .highlight-current-blue}
+
+## Measurement scales
+
+. . .
+
+![](images/datatype1.jpg){fig-align="center"}
+
+-   A variable is called **quantitative** when the measurement scale has **numerical** values that represent different magnitudes of the variable
+-   A variable is called **categorical** when the measurement scale is a set of categories
+-   For categorical variables, distinct categories differ in *quality*, not in numerical magnitude. For this reason, categorical variables are often called **qualitative** (but we won't call them as such, to avoid confusion with the type of qualitative data we covered in the first half of the module)
+
+## Measurement scales
+
+![](images/datatype2.jpg){fig-align="center" width="1441"}
+
+## Measurement scales
+
+![](images/datatype3.jpg){fig-align="center" width="1441"}
+
+. . .
+
+The position of ordinal scales on the quantitative--qualitative classification is fuzzy. Because their scale is a set of categories, they are often analyzed using the same methods as nominal scales. But in many respects, ordinal scales more closely resemble interval scales. They possess an important quantitative feature: *each level has a greater or smaller magnitude than another level*
+
+## Measurement scales
+
+![](images/datatype5.jpg){fig-align="center"}
+
+A variable's values are **discrete** if its possible values form a set of separate numbers, such as (0, 1, 2, 3, . . . ). <br>
+
+They are **continuous** if it can take an infinite continuum of possible real number values.
+
+## Measurement scales
+
+![](images/type-check2.png){fig-align="center"}
+
+## Where do *variables* come from?
+
+::: incremental
+-   Data collection: Observation, interviewing, experiments...
+-   The data we use in this module comes from **Wave 8** of the [**UK Household Longitudinal Study (Understanding Society) Main Survey**](https://www.understandingsociety.ac.uk/documentation/mainstage):
+:::
+
+. . .
+
+![](images/canvas1.gif)
+
+##  {background-iframe="https://cgmoreh.github.io/webslides/particles-bkg/particles.html" background-opacity="0.2" transition="slide-in fade-out"}
+
+::: sectiontitle
+Descriptive statistics
+:::
+
+## Describing categorical variables
+
+::: {.column width="50%"}
+-   [Categorical data are characterized by a **frequency distribution**]{.fragment .highlight-current-blue}
+-   [A frequency table is a listing of possible values for a variable, together with the **number of observations** (n) at each value]{.fragment .highlight-current-blue}
+-   [When the table shows the **proportions** or **percentages** instead of the numbers, it is called a -**relative**- **frequency distribution**]{.fragment .highlight-current-blue}
+-   Frequency distributions can also be visualised with a **bar graph**
+:::
+
+![](images/family-frequency.png){.absolute right="0%" top="30%" height="170"}
+
+## Describing *categorical* variables
+
+::: {.column width="50%"}
+-   Categorical data are characterized by a **frequency distribution**
+-   A frequency table is a listing of possible values for a variable, together with the **number of observations** (n) at each value
+-   When the table shows the **proportions** or **percentages** instead of the numbers, it is called a -**relative**- **frequency distribution**
+-   [Frequency distributions can also be visualised with a **bar graph**]{.d-red}
+:::
+
+![](images/family-bars.png){.absolute right="0%" top="30%" height="300"}
+
+## Describing *numeric* variables
+
+Quantitative variables can be summarised by measures of **central tendency** and **variation** (spread)
+
+. . .
+
+<br>
+
+### Central tendency
+
+. . .
+
+![](images/central1.png){fig-align="center"}
+
+. . .
+
+![](images/central2.png){fig-align="center"}
+
+## Describing *numeric* variables
+
+Quantitative variables can be summarised by measures of **central tendency** and **variation** (spread)
+
+<br>
+
+### Central tendency
+
+![](images/central1.png){fig-align="center"}
+
+![](images/central3.png){fig-align="center"}
+
+. . .
+
+![](images/mean-formula.png){fig-align="center" width="30%"}
+
+
+
+
+## Describing *numeric* variables
+
+Quantitative variables can be summarised by measures of **central tendency** and **variation** (spread)
+
+<br>
+
+### Central tendency
+
+![](images/central1.png){fig-align="center"}
+
+![](images/central4.png){fig-align="center"}
+
+
+
+## Describing *numeric* variables {.scrollable}
+
+Quantitative variables can be summarised by measures of **central tendency** and **variation** (spread)
+
+<br>
+
+### Central tendency
+
+![](images/central1.png){fig-align="center"}
+
+![](images/central5.png){fig-align="center"}
+
+. . .
+
+The **mode** also applies to *categorical* variables - it's more useful for describing the category with the highest frequency
+
+
+
+## Describing *numeric* variables
+
+Quantitative variables can be summarised by measures of **central tendency** and **variation** (spread)
+
+<br>
+
+### Variation (spread)
+
+. . .
+
+![](images/spread.png){fig-align="center"}
+
+. . .
+
+![](images/min-max-range.png){fig-align="center"}
+
+## Describing *numeric* variables
+
+Quantitative variables can be summarised by measures of **central tendency** and **variation** (spread)
+
+<br>
+
+### Variation (spread)
+
+![](images/spread.png){fig-align="center"} ![](images/min.png){fig-align="center"}
+
+## Describing *numeric* variables
+
+Quantitative variables can be summarised by measures of **central tendency** and **variation** (spread)
+
+<br>
+
+### Variation (spread)
+
+![](images/spread.png){fig-align="center"} ![](images/max.png){fig-align="center"}
+
+## Describing *numeric* variables
+
+Quantitative variables can be summarised by measures of **central tendency** and **variation** (spread)
+
+<br>
+
+### Variation (spread)
+
+![](images/spread.png){fig-align="center"} ![](images/range.png){fig-align="center"}
+
+## Describing *numeric* variables
+
+Quantitative variables can be summarised by measures of **central tendency** and **variation** (spread)
+
+<br>
+
+### Variation (spread)
+
+![](images/spread.png){fig-align="center"} ![](images/sd-var-formula.png){fig-align="center" width="50%"}
+
+
+
+## Describing *numeric* variables
+
+Quantitative variables can be visualised with a **histogram** (a special *frequency distribution* with grouped numeric values)
+
+. . .
+
+![](images/height-hist.png){fig-align="center" width="60%"}
+
+
+
+## Describing *numeric* variables
+
+Quantitative variables can be visualised with a **histogram** (a special *frequency distribution* with grouped numeric values)
+
+<br>
+
+![](images/hist-samples.png){fig-align="center"}
+
+
+
+## The *normal* distribution
+
+![](images/normal-sd.png){fig-align="center"}
+
+
+
+## The *normal* distribution
+
+![](images/sd-rule1.png){fig-align="center"}
+
+
+
+## The *normal* distribution
+
+![](images/sd-rule2.png){fig-align="center"}
+
+
+
+## The *normal* distribution
+
+![](images/sd-rule3.png){fig-align="center"}
+
+
+
+
+## Skewed distribution
+
+![](images/skew.png){fig-align="center"}
+
+
+
+## Quartiles and outliers {.smaller}
+
+::: {.columns}
+
+::: {.column width="55%"}
+
+Box plots are useful as they provide a visual summary of the data enabling researchers to quickly identify central values, the dispersion of the data set, and signs of skewness.
+
+- *Minimum*
+
+  The lowest score, excluding outliers (shown at the end of the left whisker).
+
+- *Lower Quartile*
+
+  Twenty-five percent of scores fall below the lower quartile value (also known as the first quartile).
+
+- *Median*
+
+  The median marks the mid-point of the data and is shown by the line that divides the box into two parts (sometimes known as the second quartile). Half the scores are greater than or equal to this value and half are less.
+
+- *Upper Quartile*
+
+  Seventy-five percent of the scores fall below the upper quartile value (also known as the third quartile). Thus, 25% of data are above this value.
+
+- *Maximum*
+
+  The highest score, excluding outliers (shown at the end of the right whisker).
+
+- *Whiskers*
+
+  The upper and lower whiskers represent scores outside the middle 50% (i.e. the lower 25% of scores and the upper 25% of scores).
+
+- *The Interquartile Range (or IQR)*
+
+  This is the box plot showing the middle 50% of scores (i.e., the range between the 25th and 75th percentile).
+
+:::
+
+
+::: {.column width="45%"}
+
+![](images/quartile-iqr.png){fig-align="left" width=70%}
+
+Boxplot:
+
+![](images/boxplot.png "A boxplot"){fig-align="left" width=70%}
+:::
+
+:::

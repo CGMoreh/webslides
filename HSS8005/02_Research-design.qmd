@@ -1,0 +1,171 @@
+---
+title: |
+  | SOC2069
+  | Researching 
+  | Social Life 1
+subtitle: Designing social research
+author: Dr. Chris Moreh
+format: 
+  revealjs:
+    history: false
+    # revealjs-plugins:
+    #  - ../my_plugins/attribution
+     # - ../my_plugins/countdown
+     # - ../my_plugins/fullscreen
+     # - ../my_plugins/elapsed
+    title-slide-attributes:
+      data-background-color: "white"
+      data-background-iframe: "https://cgmoreh.github.io/webslides/particles-bkg/particles.html"
+      data-background-interactive: true
+      data-background-opacity: "0.2"
+      data-background-size: 100vh
+      data-transition: "slide-out"
+      data-background-transition: "slide-out"
+    data-transition-speed: "default"
+    controls: true
+   #controls-layout: edges
+    controls-back-arrows: faded
+    slide-number: false
+    preview-links: true
+    theme: ../my_themes/cgm.scss
+    logo:  "../pics/Res_Soc_Life_logo.png"
+    incremental: false
+    self-contained: true
+bibliography: references.bib
+csl: ../../american-sociological-association.csl
+---
+
+## Outline {background-iframe="https://cgmoreh.github.io/webslides/particles-bkg/particles.html" background-opacity="0.2" transition="slide"}
+
+::: {.outlineslide .nonincremental}
+1.  Information and data
+2.  Interests and questions
+3.  Casing and sampling
+4.  Methods and ethics
+:::
+
+##  {background-iframe="https://cgmoreh.github.io/webslides/particles-bkg/particles.html" background-opacity="0.2" transition="slide-in fade-out"}
+
+::: sectiontitle
+Information and data
+:::
+
+::: sectionhead
+1 [2 3 4]{.opq}
+:::
+
+## Information {transition="fade-in"}
+
+::: slidehead
+1 [2 3 4]{.opq}
+:::
+
+::: {.column width="70%"}
+-   "Are we human, or are we denser?" [^1]
+:::
+
+![](../pics/info-brain.gif){.absolute right="-5%" top="30%" height="200"}
+
+## Information
+
+::: slidehead
+1 [2 3 4]{.opq}
+:::
+
+![](../pics/info-brain.gif){.absolute right="-5%" top="30%" height="200"}
+
+::: {.fragment .current-visible .absolute layout-nrow="2" right="-2%" top="10%" width="330" height="220"}
+![](../pics/lines-illusion.jpg) ![](../pics/elephant-legs.jpg)
+:::
+
+::: {.fragment .current-visible}
+![](../pics/system1-system2.png){.absolute left="70%" right="-10%" top="30%" width="400"}
+
+[Image source: *Internet*. Based on Daniel Kahneman's [-@Kahneman2012ThinkingFastSlow] book *Thinking Fast and Slow.*]{.attribution left=80%}
+:::
+
+![](../pics/brain-vs-computer.png){.fragment .current-visible .absolute left="70%" right="-10%" top="30%" width="400"}
+
+::: {.column width="70%"}
+-   "Are we human, or are we <s>denser</s> dancer?" [^2]
+:::
+
+. . .
+
+::: {.column width="70%"}
+-   Social research is all about 'taming' information
+:::
+
+![](../pics/day-data.jpg){.absolute left="70%" right="-10%" top="30%" width="400"}
+
+![](../pics/Kranzler-information-commonsense.jpg){.fragment .absolute top="15%" left="70%" right="-10%" width="400"}
+
+. . .
+
+::: {.column width="70%"}
+-   Learning research methods is a bit like learning to dance
+:::
+
+. . .
+
+::: {.column width="70%"}
+-   another point
+:::
+
+. . .
+
+::: {.column width="70%"}
+-   Salsa dancing or something more structured?
+:::
+
+## Contd
+
+-   [the question of how to capture information in an efficient way for sociological analysis]{.fragment .highlight-current-blue}
+
+-   [the 'map and the territory' question]{.fragment .highlight-current-blue}
+
+-   something else
+
+. . .
+
+> "Even if it were possible to observe people closely as their lives proceeded, we could not guarantee that this strategy would collect"truer" information, especially about such unobservable matters as motivations, perceptions, and views " [@gerson2020, pp.20?]
+
+-   also the question of 'stories'; for this, see also @byrne2002
+
+-   stories about cases, individual or 'variables' :::
+
+## Topic
+
+-   a picture that needs attribution here...
+
+[Curtesy of someone who made this]{.attribution}
+
+## 3
+
+-   thick description
+
+-   'explanatory' rather than 'predictive analysis' (Gerson and damaske 2020; 14)[@gerson2020]
+
+-   "what," "why," and "how" questions. - 'depth interviewing' that connect inductive approaches to theory
+
+-   what can small samples tell us?
+
+-   
+
+## Sanpling 1
+
+-   setting 'sample bundaries' depth interviewing)
+
+-   
+
+## Sampling 2
+
+## Conc
+
+[@goldthorpe2007; @hacking1990; @halsey2004, p. 23]
+
+## References and further readings {background-color="#e3e5e8"}
+
+[^1]: Lyric from the 2008 song *Human* by *The Killers*
+
+[^2]: Lyric from the 2008 song *Human* by *The Killers*. There was some confusion about the lyrics among fans and the band's frontman clarified that he sings 'dancer', not 'denser'. "I guess it bothers people that it's not grammatically correct, but I think I'm allowed to do whatever I want", he said. Apparently, the lyric alludes to a quote from journalist Hunter S. Thompson about how "America is raising a generation of dancers, afraid to take one step out of line" [(https://www.digitalspy.com/music/a134344/flowers-clears-up-human-confusion/)](https://www.digitalspy.com/music/a134344/flowers-clears-up-human-confusion/)
