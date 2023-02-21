@@ -1,0 +1,110 @@
+---
+week: 2
+week-title: "{{< var topic.w2 >}}"
+week-subtitle: "{{< var subtitle.w2 >}}"
+title: "Quantitative analysis {{< iconify bi plus-square-dotted size=sm >}}"
+author: "Chris Moreh"
+year: "2023"
+format: 
+  revealjs:
+    template-partials:
+     - title-slide.html
+    history: false
+    # revealjs-plugins:
+    #  - ../my_plugins/attribution
+     # - ../my_plugins/countdown
+     # - ../my_plugins/fullscreen
+     # - ../my_plugins/elapsed
+    title-slide-attributes:
+      data-background-color: "white"
+      data-background-iframe: "https://cgmoreh.github.io/webslides/particles-bkg/particles.html"
+      data-background-interactive: true
+      data-background-opacity: "0.2"
+      data-background-size: 100vh
+      data-transition: "slide-out"
+      data-background-transition: "slide-out"
+      data-transition-speed: "default"
+    controls: true
+     #controls-layout: edges
+    controls-back-arrows: faded
+    slide-number: false
+    preview-links: true
+    theme: slides.scss
+    incremental: false
+    self-contained: true
+    navigation-mode: vertical
+#footer: "[https://cgmoreh.github.io/HSS8005/](https://cgmoreh.github.io/HSS8005/)"
+# bibliography: references.bib
+course-logo: images/ncl_coa_hss8005.png
+#csl: ../../american-sociological-association.csl
+
+---
+
+## Guessing game
+
+```{r}
+#| echo: false
+
+library("tidyverse")
+```
+
+```{r}
+#| echo: false
+howell <- read_csv("https://cgmoreh.github.io/HSS8005-data/Howell.csv")
+y <- howell$height
+```
+
+```{r}
+y
+```
+
+<br>
+
+What is the **Mean** of this dataset? What is its **standard deviation**?
+
+## Revised guesses
+
+:::{.incremental}
+
+- The data consist of 544 measurements of human height
+- The mean of the data is `r mean(y)`
+- The standard deviation is `r sd(y)`
+
+:::
+
+
+
+## !Kung demography
+
+::: {layout-ncol=2}
+
+![](./images/kung1.jpg){height=30%}
+
+![](./images/kung2.jpg){height=30%}
+
+:::
+
+## A histogram
+
+```{r}
+p<-ggplot(howell, aes(x=height)) + 
+  geom_histogram(color="black", fill="white")
+p
+```
+
+
+## 
+
+```{r}
+summary(howell)
+```
+
+```{r}
+summary(lm(height ~ weight, data = howell))
+```
+
+```{r}
+summary(lm(height ~ weight + age + male, data = howell))
+```
+
+

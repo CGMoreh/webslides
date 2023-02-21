@@ -1,0 +1,4 @@
+project:
+  preview:
+    port: 4000
+    browser: true
