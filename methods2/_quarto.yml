@@ -1,9 +1,11 @@
 project:
-  output-dir: ../../HSS8005-data/
+  output-dir: ../../HSS8005/materials/slides
   
 title: "Quantitative analysis {{< iconify bi plus-square-dotted size=sm >}}"
 author: "Chris Moreh"
 year: "2023"
+
+self-contained: true
 
 format: 
   revealjs:
@@ -31,7 +33,6 @@ format:
     preview-links: true
     theme: slides.scss
     incremental: false
-    self-contained: true
     navigation-mode: vertical
 #footer: "[https://cgmoreh.github.io/HSS8005/](https://cgmoreh.github.io/HSS8005/)"
 # bibliography: references.bib

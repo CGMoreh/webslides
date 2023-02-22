@@ -3,7 +3,6 @@ week: 1
 week-title: "{{< var topic.w1 >}}"
 week-subtitle: "{{< var subtitle.w1 >}}"
 #output-dir: ./../../HSS8005/docs/materials/testpres
-self-contained: true
 format: revealjs
 ---
 
