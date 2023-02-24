@@ -3,6 +3,7 @@ week: 1
 week-title: "{{< var topic.w1 >}}"
 week-subtitle: "{{< var subtitle.w1 >}}"
 #output-dir: ./../../HSS8005/docs/materials/testpres
+format: revealjs
 ---
 
 # Outline {background-iframe="https://cgmoreh.github.io/webslides/particles-bkg/particles.html" background-opacity="0.2" transition="slide"}
