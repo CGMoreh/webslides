@@ -133,7 +133,7 @@ Literature? Performative? Martial?
 
 ## Theory as method
 
-::: {big-ul}
+::: {.big-ul}
 - A language, indispensable to science
 - The theoretical language always includes an interpretation of the social reality. We see and understand the world with the help of theories. Theories here serve as an interpretative framework
 - Theories are indispensable when it comes to explanation, since they conceptualize causal mechanisms
@@ -143,7 +143,8 @@ Literature? Performative? Martial?
 
 ## Theorizing
 
-::: {big-ul}
+::: {.big-ul}
+- The art of social theory [@Swedberg2014ArtSocialTheory]
 - Builds on the work of philosopher Charles Sanders Peirce (1839–1914)
 - The crucial role of “guessing” in scientific research. It is precisely through guessing that the most important part of the scientific analysis is produced—namely, the explanation.
 - The term that Charles S. Peirce most often used to refer to the guess of a hypothesis is abduction
@@ -154,7 +155,7 @@ Literature? Performative? Martial?
 
 ## Theorizing
 
-::: {big-ul}
+::: {.big-ul}
 - A 3-step process: abduction, deduction and induction
 - Intensive observation until one is surprised (the surprise comes from finding something that should not be there according to the current state of scientific knowledge)
 - Come up with an idea for what explains the facts that caused the surprise: abduction (requires to somehow access the less conscious parts of one’s mind)
@@ -162,8 +163,5 @@ Literature? Performative? Martial?
 - The testing part is called induction by Peirce. This stage is preceded by deduction, during which the researcher tries to deduct hypotheses to test from the original idea or abduction
 :::
 
-
-
-
-
 ## References
+
