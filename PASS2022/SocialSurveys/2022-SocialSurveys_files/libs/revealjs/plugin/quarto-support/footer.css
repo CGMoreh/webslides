@@ -1,23 +1,21 @@
 .reveal .slide-logo {
   display: block;
   position: fixed;
-  bottom: 8px;
-  right: 20px;
-  max-height: 2.7rem;
+  bottom: 0;
+  right: 12px;
+  max-height: 2.2rem;
   height: 100%;
   width: auto;
-  z-index: 2;
 }
 
 .reveal .footer {
   display: block;
   position: fixed;
-  bottom: 13px;
+  bottom: 18px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  /* right: -55px; */
-  font-size: 20px;
+  font-size: 18px;
   z-index: 2;
 }
 

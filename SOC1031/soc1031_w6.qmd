@@ -1,0 +1,132 @@
+---
+title: "<br>SOC-1031<br>"
+subtitle: "Knowing in Sociology <br> PART II"
+# date: March 2023
+author: "[Dr Chris Moreh](https://www.ncl.ac.uk/gps/staff/profile/chrismoreh.html) &emsp; | &emsp; [chris.moreh@newcastle.co.uk](mailto:chris.moreh@newcastle.co.uk) &emsp; | &emsp; [Tutorial Booking](https://outlook.office365.com/owa/calendar/ChrisMorehofficehours@newcastle.onmicrosoft.com/bookings/)"
+format: 
+  revealjs:
+    history: false
+    title-slide-attributes:
+      data-background-color: "black"
+      data-background-image: "pics/peoplebkg.jpg"
+      data-background-opacity: "0.25"
+    touch: true
+    controls: true
+    self-contained: true
+    controls-layout: bottom-right
+    controls-back-arrows: faded
+    slide-number: false
+    preview-links: true
+    code-overflow: wrap
+    menu: false
+    incremental: true
+    auto-animate: true
+    theme: my_kakashi.scss
+    #logo:  pics/ncllogo.svg
+    #css: kakashi.scss
+    # footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
+    toc: false
+    transition: fade
+    background-transition: fade
+    transition-speed: slow
+    html-q-tags: true
+    reference-location: document
+editor: 
+    render-on-save: true
+bibliography: references.bib
+---
+
+# Week 6 {background-color="black" background-image="pics/peoplebkg.jpg" background-opacity="0.25"}
+
+[Information]{.subtitle}
+
+## Aims {.center background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
+
+::: big-ol
+1.  Sociologists are humans
+2.  Science and art
+3.  An information science
+4.  Method is theory is method
+:::
+
+## Being human
+
+![](pics/info-brain.gif)
+
+## Being human
+
+![](pics/elephant-legs.jpg)
+
+## Being human
+
+![](pics/lines-straight.jpg)
+
+## Being human
+
+![](pics/line-lengths-q.png){width="500"}
+
+. . .
+
+![](pics/line-lengths-a.png){width="500"}
+
+## Being human
+
+::: columns
+::: {.column width="60%"}
+::: big-ul
+-   "Are we human, or are we denser?"
+-   "Are we human, or are we dancer?"
+-   "I guess it bothers people that it's not grammatically correct, but I think I'm allowed to do whatever I want" (Killers' frontman)
+-   Apparently, alludes to a quote from journalist Hunter S. Thompson about how "America is raising a generation of dancers, afraid to take one step out of line" [(link)](https://www.digitalspy.com/music/a134344/flowers-clears-up-human-confusion/)
+-   Salsa dancing? [@Luker2008SalsaDancingSocialSciencesResearch]
+:::
+:::
+
+::: {.column width="40%"}
+<br>
+<iframe width="460" height="350" src="https://www.youtube.com/embed/RIZdjT1472Y?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen data-external="1"></iframe>
+:::
+:::
+
+## Sociology as art
+
+. . .
+
+What kind of art?
+
+. . .
+
+Literature? Performative? Martial?
+
+. . .
+
+> It is my deeply held conviction that the very best social science research of the coming era will be exactly this kind of research—research that draws on the kinds of **bold** and **interdisciplinary** insights you can get when you salsa-dance. But be warned: you can’t just show up at a salsa dancing palace and expect to have as much fun as you should without having done at least a little training ahead of time. For all its improvisational nature, salsa dancing builds on **some very specific steps** [@Luker2008SalsaDancingSocialSciencesResearch, p. 2]
+
+
+## Sociology as science
+
+::: {.big-ul}
+- A population science? [@Goldthorpe2016SociologyPopulationScience]
+:::
+
+. . .
+
+> Sociology has to be understood as a population science, primarily on account of the degree of variability evident in human social life, at the level of sociocultural entities, but also, and crucially, at the individual level – this latter variability being inadequately treated within the ‘holistic’ paradigm of inquiry, for long prevalent in sociology but now increasingly called into question [@Goldthorpe2016SociologyPopulationScience, p. 17]
+
+. . .
+
+::: {.big-ul}
+- An information science?
+:::
+
+
+##  {background-image="pics/day-data.png"}
+
+
+
+
+
+
+
+
+## References
