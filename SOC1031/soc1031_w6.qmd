@@ -49,6 +49,10 @@ bibliography: references.bib
 4.  Method is theory is method
 :::
 
+##
+
+![](pics/years.png)
+
 ## Being human
 
 ![](pics/info-brain.gif)
@@ -100,6 +104,10 @@ Literature? Performative? Martial?
 
 . . .
 
+<iframe width="560" height="430" src="https://www.youtube.com/embed/AY7dwY7LYkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen data-external="1"></iframe>
+
+## Sociology as art
+
 > It is my deeply held conviction that the very best social science research of the coming era will be exactly this kind of research—research that draws on the kinds of **bold** and **interdisciplinary** insights you can get when you salsa-dance. But be warned: you can’t just show up at a salsa dancing palace and expect to have as much fun as you should without having done at least a little training ahead of time. For all its improvisational nature, salsa dancing builds on **some very specific steps** [@Luker2008SalsaDancingSocialSciencesResearch, p. 2]
 
 
@@ -111,7 +119,7 @@ Literature? Performative? Martial?
 
 . . .
 
-> Sociology has to be understood as a population science, primarily on account of the degree of variability evident in human social life, at the level of sociocultural entities, but also, and crucially, at the individual level – this latter variability being inadequately treated within the ‘holistic’ paradigm of inquiry, for long prevalent in sociology but now increasingly called into question [@Goldthorpe2016SociologyPopulationScience, p. 17]
+> Sociology has to be understood as a population science, primarily on account of the degree of **variability** evident in human social life, at the level of sociocultural entities, but also, and crucially, at the individual level – this latter variability being inadequately treated within the ‘holistic’ paradigm of inquiry, for long prevalent in sociology but now increasingly called into question [@Goldthorpe2016SociologyPopulationScience, p. 17]
 
 . . .
 
@@ -123,7 +131,36 @@ Literature? Performative? Martial?
 ##  {background-image="pics/day-data.png"}
 
 
+## Theory as method
 
+::: {big-ul}
+- A language, indispensable to science
+- The theoretical language always includes an interpretation of the social reality. We see and understand the world with the help of theories. Theories here serve as an interpretative framework
+- Theories are indispensable when it comes to explanation, since they conceptualize causal mechanisms
+- Theories are abstractions; they describe phenomena with reference to certain aspects, which have been separated from other aspects also characterizing concrete events or phenomena
+- Theories can be of different kinds:  metatheories, normative theories, general and more specific descriptive theories
+:::
+
+## Theorizing
+
+::: {big-ul}
+- Builds on the work of philosopher Charles Sanders Peirce (1839–1914)
+- The crucial role of “guessing” in scientific research. It is precisely through guessing that the most important part of the scientific analysis is produced—namely, the explanation.
+- The term that Charles S. Peirce most often used to refer to the guess of a hypothesis is abduction
+- Creative theorizing is an abductive-oriented type of theorizing
+- It’s more like developing the kind of intuitive thinking that ‘experts’ possess. 
+- Developing it is a question of practice (reading and thinking)
+:::
+
+## Theorizing
+
+::: {big-ul}
+- A 3-step process: abduction, deduction and induction
+- Intensive observation until one is surprised (the surprise comes from finding something that should not be there according to the current state of scientific knowledge)
+- Come up with an idea for what explains the facts that caused the surprise: abduction (requires to somehow access the less conscious parts of one’s mind)
+- It must be possible to test this idea empirically; and the test must be successful. 
+- The testing part is called induction by Peirce. This stage is preceded by deduction, during which the researcher tries to deduct hypotheses to test from the original idea or abduction
+:::
 
 
 
