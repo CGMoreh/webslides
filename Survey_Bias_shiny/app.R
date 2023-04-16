@@ -1,8 +1,11 @@
 # Load Packages
-library(dplyr)
-library(boastUtils)
-library(shinyBS)
-library(shinyWidgets)
+pacman::p_load(dplyr, shinyBS, shinyWidgets)
+pacman::p_load_gh("EducationShinyAppTeam/boastUtils")
+# 
+# library(dplyr)
+# library(boastUtils)
+# library(shinyBS)
+# library(shinyWidgets)
 
 # Load additional dependencies and setup functions ----
 bank <- read.csv("questionBank.csv", stringsAsFactors = FALSE, header = TRUE)
