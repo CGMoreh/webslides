@@ -2,6 +2,7 @@
 title: "Introducing <br> quantitative methods"
 subtitle: Kingsmeadow Community School
 eventdate: "17 April 2023"
+slides: "[https://cgmoreh.github.io/webslides/Kingsmeadow/Quants](https://cgmoreh.github.io/webslides/Kingsmeadow/Quants)"
 author: <b>Dr. Chris Moreh</b>
 institute: "Geography, Politics and Sociology"
 format: 
@@ -44,7 +45,7 @@ self-contained: true
 <br>
 
 :::{.outlineslide}
-1.  Stories
+1.  A research story
 1.  Populations and sampling
 2.  Measurement
 3.  Classification
@@ -60,5 +61,163 @@ self-contained: true
 A research story
 :::
 
+## EU migrants and the EU referendum
+
+::: {.big-ul}
+- May 2013: Draft EU Referendum Bill
+- May 2015: General election
+- December 2015: European Union Referendum Act - Referendum to be held before the end of 2017
+- February 2016: Outcome of "negotiating a new settlement for Britain in the EU" (The Conservative Party Manifesto 2015) and announcement of Referendum date for 23 June 2016
+- What are the future plans of EU migrants in case of a referendum vote to leave the EU?
+- 1 March – 23 June 2016: online survey
+:::
+
+## {background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
+::: {.week-title .center}
+![](style/die2.png)
+<br>
+Populations and sampling
+:::
+
+## Migrant population in UK
+
+![](pics/migration-time.png)
+
+## Migrant population in UK
+
+![](pics/nino-time.png)
+
+## Migrant population in UK
+
+![](pics/mig-groups.png)
+
+## Population and sampling
+
+![](pics/sampling.png)
+
+## EU migrants and the EU referendum
+
+::: {.big-ul}
+- The survey targeted non-British adult EU Citizens living in the UK
+- Besides English the survey questionnaire was translated into 6 languages (Polish, Romanian, Portuguese, Italian, Hungarian and Spanish).
+:::
+
+. . .
+
+![](pics/sample.png)
+
+## EU migrants and the EU referendum
+
+![](pics/sample-compare.png)
+
+
+## {background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
+::: {.week-title .center}
+![](style/die3.png)
+<br>
+Measurement
+:::
+
+## {background-image="pics/day-data.png"}
+
+## {background-image="pics/day-data.png" background-opacity="0.20"}
+
+![](pics/Kranzler-information-commonsense.jpg){.absolute top=50 left=0 width="450"}
+
+. . .
+
+![](pics/lines-straight.jpg){.absolute top=50 right=0 width="570"}
+
+## Questionnaire design
+
+. . .
+
+![](pics/badquestion.png)
+
+## Questionnaire design
+
+![](pics/badq1.png)
+
+## Questionnaire design
+
+![](pics/accident-death.jpg)
+
+
+## Questionnaire design
+
+![](pics/depends.png)
+
+## Questionnaire design
+
+![](pics/internet-websurvey.png)
+
+## Questionnaire design
+
+![](pics/age.png)
+
+## Questionnaire design
+
+![](pics/badq3.png)
+
+## Questionnaire design
+
+![](pics/solicitors.jpg)
+
+## Questionnaire design
+
+![](pics/goodwin.png)
+
 
 ## {background-iframe="https://cgmoreh.shinyapps.io/Survey_Bias_shiny/" background-interactive=true}
+
+
+
+## EU migrants and the EU referendum
+
+![](pics/Brexit anxiety.png)
+
+## EU migrants and the EU referendum
+
+![](pics/plans-actions.png)
+
+
+## {background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
+::: {.week-title .center}
+![](style/die4.png)
+<br>
+Classification
+:::
+
+
+
+
+
+## {background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
+::: {.week-title .center}
+![](style/die4.png)
+<br>
+Modelling
+:::
+
+
+
+
+## {background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
+::: {.week-title .center}
+<br>
+Concluding thoughts
+:::
+
+## Reading suggestions
+
+![](pics/spiegelhalter.jpg)
+
+## Reading suggestions
+
+![](pics/pearl.jpg)
+
+## Reading suggestions
+
+![](pics/goldthorpe.webp)
+
+
