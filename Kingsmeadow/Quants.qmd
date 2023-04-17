@@ -181,6 +181,10 @@ Measurement
 ![](pics/plans-actions.png)
 
 
+## EU migrants and the EU referendum
+
+![](pics/citizenship.png)
+
 ## {background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
 ::: {.week-title .center}
 ![](style/die4.png)
@@ -188,7 +192,7 @@ Measurement
 Classification
 :::
 
-
+![](analysis/regression.png)
 
 
 
