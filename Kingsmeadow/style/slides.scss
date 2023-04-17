@@ -11,6 +11,18 @@ $vd-red: #400000; /* very dark red */
 $ncl-blue:  #0e3b6a;
 $grey: #848c94 !default;
 $dark-grey: #485153 !default;
+$light-blue: #56B4E9 !default;
+$pale-blue: #CEE9FF !default;
+$dark-blue: #0072B2 !default;
+$light-grey: #a2a2a3a3 !default;
+$grayish-black: #474747 !default;
+$greenish-black: #23373B !default;
+$grey: #E5E5E5 !default;
+$dark-grey: #6C7B7F !default;
+$pink: #ec9999 !default;
+$orange: #E69F00 !default;
+$green: #009E73 !default;
+
 
 :root {
     --questionslide: rgba(249, 187, 97, 0.25);
@@ -115,8 +127,12 @@ $dark-bg-link-color:	#42affa;
   font-weight: bold;
   color: $presentation-heading-color;
   text-shadow: $shadow;
-  margin-top: 80px !important;
+  margin-top: 100px !important;
   margin-bottom: 10px !important;
+  align-items: center;
+  padding-top: 0.4em;
+  padding-bottom: 0.1em;
+  padding-left: 0.5em;
 }
 
 .week-subtitle {
@@ -243,10 +259,12 @@ $dark-bg-link-color:	#42affa;
   display: flex;
   align-items: center;
   /*top: 50%; */
-  right: 35%;
+  /* right: 35%;
+  left: 0%; */
  /* transform: translate(-10%, -50%);
   padding: 500px 0 0 0;*/
 }
+
 
 body, li{
     align-items: center;
@@ -446,7 +464,7 @@ ul li::marker {
   counter-reset: my-counter;
   list-style: none;
   padding-left: 40px;
-  font-size: 90%;
+  font-size: 80%;
   text-align: left;
 }
 
@@ -620,3 +638,211 @@ section.has-dark-background .fragment:not(.current-fragment)::before {
   padding-right: 10px;
 }
 
+
+.fragment:not(.current-fragment) {
+  color: $light-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) {
+  color: $dark-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) {
+  color: $dark-grey;
+}
+
+section.has-dark-background .current-fragment {
+  color: $light-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) strong {
+  color: $dark-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) em {
+  color: $dark-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) a, a > code  {
+  color: $dark-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) code {
+  color: $dark-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) del {
+  color: $dark-grey;
+}
+
+.fragment:not(.current-fragment) code {
+  color: $light-grey;
+}
+
+.fragment:not(.current-fragment)::before {
+  background-color: lighten($light-grey, 3%);
+}
+
+section.has-dark-background .fragment:not(.current-fragment)::before {
+  background-color: lighten($dark-grey, 3%);
+}
+
+.fragment:not(.current-fragment) strong {
+  color: $light-grey;
+}
+
+.fragment:not(.current-fragment) em {
+  color: $light-grey;
+}
+
+.fragment:not(.current-fragment) del {
+  color: $light-grey;
+}
+
+.fragment:not(.current-fragment) a {
+  color: $light-grey;
+}
+
+.current-fragment {
+  color: $body-color;
+}
+
+.reveal
+  div.sourceCode
+  pre
+  code.has-line-highlights
+  > span:not(.highlight-line) {
+  opacity: 0.1 !important;
+}
+
+.reveal
+  div.sourceCode
+  pre
+  code.has-line-highlights
+  > span.highlight-line {
+  font-weight: bold;
+}
+
+
+.big-ol {
+  p {
+    font-size: 125%;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  ol {
+    counter-reset: my-counter;
+    list-style: none;
+    padding-left: 40px;
+    font-size: 125%;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  ol li {
+    counter-increment: my-counter;
+    padding-left: 5px;
+    position: relative;
+    font-size: 125%;
+    margin: 10px 0;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  ol li::before {
+    content: counter(my-counter);
+    color: #fff;
+    font-size: 90%;
+    font-weight: bold;
+    position: absolute;
+    left: -70px;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    top: 10%;
+    background: $light-blue;
+    border-radius: 50%;
+    text-align: center;
+  }
+}
+
+.big-ul {
+  p {
+    font-size: 125%;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  ul {
+    counter-reset: my-counter;
+    list-style: none;
+    padding-left: 40px;
+    font-size: 100%;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  ul li {
+    counter-increment: my-counter;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    position: relative;
+    font-size: 100%;
+    margin: 10px 0;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  ul li::before {
+    content: counter(my-counter);
+    color: $light-blue;
+    font-size: 0%;
+    font-weight: bold;
+    position: absolute;
+    left: -50px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    top: 0%;
+    background: $light-blue;
+    border-radius: 60%;
+    text-align: center;
+  }
+}
+
+
+/*
+.slide-menu-wrapper {
+  display: none;
+  visibility: hidden;
+} */
+
+.middle {
+  vertical-align: middle;
+}
+
+.center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.huge { font-size: 200% }
+.extra-large { font-size: 150% }
+.large { font-size: 130% }
+.medium { font-size: 115% }
+.small { font-size: 70% }
+.tiny { font-size: 50% }

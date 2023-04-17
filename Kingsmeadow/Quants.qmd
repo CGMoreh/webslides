@@ -1,0 +1,64 @@
+---
+title: "Introducing <br> quantitative methods"
+subtitle: Kingsmeadow Community School
+eventdate: "17 April 2023"
+author: <b>Dr. Chris Moreh</b>
+institute: "Geography, Politics and Sociology"
+format: 
+  revealjs:
+    history: false
+    template-partials:
+     - style/title-slide.html
+    title-slide-attributes:
+      data-background-color: "white"
+      data-background-image: "pics/peoplebkg.jpg"
+      data-background-opacity: "0.30"
+    touch: true
+    controls: true
+    controls-layout: edges
+    controls-back-arrows: faded
+    slide-number: false
+    preview-links: true
+    code-overflow: wrap
+    menu: false
+    incremental: true
+    auto-animate: true
+    theme: style/slides.scss
+    logo:  pics/ncllogo.svg
+    footer: "[chrismoreh.com](https://chrismoreh.com) | [chris.moreh@newcastle.ac.uk](mailto: chris.moreh@newcastle.ac.uk)"
+    toc: false
+    transition: fade
+    background-transition: fade
+    transition-speed: slow
+    html-q-tags: true
+    reference-location: document
+editor: 
+    render-on-save: true
+bibliography: references.bib
+self-contained: true
+---
+
+
+## Outline {.center background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
+
+<br>
+
+:::{.outlineslide}
+1.  Stories
+1.  Populations and sampling
+2.  Measurement
+3.  Classification
+4.  Modelling
+5.  Probability
+:::
+
+## {background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
+
+::: {.week-title .center}
+![](style/die1.png)
+<br>
+A research story
+:::
+
+
+## {background-iframe="https://cgmoreh.shinyapps.io/Survey_Bias_shiny/" background-interactive=true}
