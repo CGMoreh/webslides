@@ -192,8 +192,34 @@ Measurement
 Classification
 :::
 
-![](analysis/regression.png)
+## Classification
 
+![](pics/classification.png)
+
+## EU migrants and the EU referendum
+
+![](pics/res1.png)
+
+## EU migrants and the EU referendum
+
+![](pics/res3.png){.absolute top=100 left=0 width="470"}
+
+![](pics/res4.png){.absolute top=100 right=0 width="470"}
+
+
+## EU migrants and the EU referendum
+
+![](pics/res2.png)
+
+
+## EU migrants and the EU referendum
+
+![](pics/res5.png)
+
+
+## EU migrants and the EU referendum
+
+![](pics/res6.png)
 
 
 ## {background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
@@ -204,6 +230,9 @@ Modelling
 :::
 
 
+## A model of citizenship planning
+
+![](analysis/regression.png)
 
 
 ## {background-image="pics/peoplebkg.jpg" background-opacity="0.10"}
