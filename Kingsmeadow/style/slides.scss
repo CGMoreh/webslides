@@ -1,0 +1,622 @@
+/*-- scss:defaults --*/
+
+// fonts
+$font-family-sans-serif: "Palatino Linotype", "Book Antiqua", Palatino,
+  FreeSerif, serif !default;
+
+  // My colours
+
+$d-red: #a10000; /* dark red */
+$vd-red: #400000; /* very dark red */
+$ncl-blue:  #0e3b6a;
+$grey: #848c94 !default;
+$dark-grey: #485153 !default;
+
+:root {
+    --questionslide: rgba(249, 187, 97, 0.25);
+}
+
+:root {
+    --answerslide: rgba(97, 249, 117, 0.25);
+}
+
+$shadow: 2px 2px 5px black;
+
+.d-red {
+  color: #a10000;
+}
+
+  
+// headings
+$presentation-heading-font: Arial, serif !default;  
+  
+//$font-family-monospace:	monospace;
+$presentation-font-size-root:	30px;
+$presentation-font-smaller:	0.6;
+$presentation-line-height:	1.1;
+$body-bg:	#ffffff;
+$body-color:	#222;
+$text-muted:	lighten($body-color, 50%);
+$link-color:	rgba(204, 122, 0, 1);
+$link-color-hover:	lighten($link-color, 15%);
+$selection-bg:	lighten(rgb(5, 80, 153), 15%);
+$selection-color:	$body-bg;
+$border-color:	lighten($body-color, 30%);
+$border-width:	1px;
+$border-radius:	3px;
+$presentation-heading-font:	$font-family-sans-serif;
+$presentation-heading-color: $ncl-blue; //rgb(5, 80, 153);
+$presentation-heading-line-height:	1.2;
+$presentation-heading-letter-spacing:	normal;
+$presentation-heading-text-transform:	none;
+$presentation-heading-text-shadow:	none;
+$presentation-h1-text-shadow:	none;
+$presentation-heading-font-weight:	600;
+$presentation-h1-font-size:	3em;
+$presentation-h2-font-size:	1.7em;
+$presentation-h3-font-size:	1.3em;
+$presentation-h4-font-size:	1em;
+$presentation-block-margin:	2px;
+$presentation-slide-text-align:	left;
+//$presentation-title-slide-text-align:	center;
+//$code-block-bg:	#fdf9f9;
+$code-block-border-color:	lighten($body-color, 70%);
+$code-block-font-size:	0.6em;
+$code-color:	$vd-red;
+$code-bg:	transparent;
+$tabset-border-color:	$code-block-border-color;
+$light-bg-text-color:	#222;
+$light-bg-link-color:	#2a76dd;
+$light-bg-code-color:	#4758ab;
+$dark-bg-text-color:	#fff;
+$dark-bg-link-color:	#42affa;
+//$dark-bg-code-color:	#ffa07a;
+
+.subtitle {
+  font-size: 1em;
+  color: $presentation-heading-color;
+  margin-top: 70px !important;
+  font-size: 1em;
+}
+
+.course-title {
+  font-size: 2.5em;
+  color: $ncl-blue;
+  font-weight: bold;
+  text-shadow: $shadow;
+  margin-top: 120px !important;
+}
+
+.course-details {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 120px !important;
+}
+
+.institute {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: bold;
+  color: $ncl-blue;
+}
+
+.week {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-top: 80px !important;
+  margin-bottom: 10px !important;
+  text-shadow: $shadow;
+  align-items: center;
+  /*top: 50%; */
+}
+
+.week-title {
+  font-size: 2.3em;
+  font-weight: bold;
+  color: $presentation-heading-color;
+  text-shadow: $shadow;
+  margin-top: 80px !important;
+  margin-bottom: 10px !important;
+}
+
+.week-subtitle {
+  font-size: 2em;
+  color: $presentation-heading-color;
+  margin-top: 40px !important;
+  margin-bottom: 100px !important;
+}
+
+.single h1, h2 {
+  margin-bottom: 20px !important;
+}
+
+
+.text-xs {
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+.text-8 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.text-9 {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.text-12 {
+  font-size: 1.2rem;
+  line-height: 1rem;
+}
+
+.text-13 {
+  font-size: 0.8em;
+  line-height: 1rem;  
+}
+
+.text-15 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1rem;
+  margin-bottom: 20px !important;
+}
+
+.text-20 {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+
+.reveal .slides .aside-footnotes {
+  font-size: 0.8rem !important;
+  line-height: 0.7rem;
+}
+
+
+/* The below specs come from https://github.com/meghall06/personal-website/blob/master/static/slides/NEAIR/custom.scss */
+
+.reveal .slides section .fragment.semi-fade-out {
+	opacity: 1;
+	visibility: inherit;
+
+	&.visible {
+		opacity: 0.25;
+		visibility: inherit;
+	}
+}
+
+.slidehead {
+  font-size: 0.8em;
+  text-align: left;
+  position: absolute;
+  top: 3%;
+  left: 90%;
+  color: $presentation-heading-color;
+  font-family: $presentation-heading-font;
+  background-color: $body-bg;
+  margin: 1px;
+  padding: 2px 2px 2px 10px;
+  width: 150px;
+  border-left: 10px solid;
+}
+
+.blackbox {
+  color: #000000;
+  background-color: transparent;
+  margin: 1px;
+  padding: 5px 2px 5px 2px;
+  height: 205px;
+  border: 2px solid;
+}
+
+.sectionhead {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  color: $presentation-heading-color;
+  font-family: $presentation-heading-font;
+  background-color: #FF000000;
+  margin: 1px;
+  transform: translate(-20%, -50%);
+  padding: 0 0 0 20px;
+  width: 300px;
+  border-left: 10px solid;
+}
+
+.sectiontitle {
+  font-size:	3em;
+  position: absolute;
+  text-shadow: $shadow;
+  font-weight: bold;
+  color: $presentation-heading-color;
+ /* text-align: right; */
+  height: 7em;
+  display: flex;
+  align-items: center;
+  /*top: 50%; */
+  right: 35%;
+ /* transform: translate(-10%, -50%);
+  padding: 500px 0 0 0;*/
+}
+
+body, li{
+    align-items: center;
+}
+
+.outlineslide {
+  height: 14em;
+  color: #697887;
+  font-weight: 900;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.1em;
+  padding-left: 0.5em;
+}
+
+
+/* style type for ordered list */
+@counter-style die-ordered {
+  system: fixed;
+  symbols: '\2680'  '\2681' '\2682' '\2683' '\2684' '\2685';
+  suffix: '   ';
+}
+
+.outlineslide ol {
+  padding-left: 10px;
+  font-size: 110%;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+}
+
+.outlineslide ol li {
+  list-style-type: die-ordered;
+  padding-left: 10px;
+  font-size: 150%;
+  list-style-position: inside;
+}
+
+
+.outlineslide ol li::marker {
+  list-style-type: die-ordered;
+  color:  $ncl-blue;
+  font-size: 150%;
+
+}
+
+
+
+.opq { /* opacity for .sectionhead */
+  opacity: 0.25;
+}
+
+.questionslide {
+  background-color: beige;
+}
+
+/* Colour-changing bullet-points; still needs work... Based on: https://github.com/CaitlinCasar/caitlin/blob/master/content/post/revealjs/SpringCommitteeMeeting2020/styles.css */
+
+/*
+.reveal .slides li {
+	color: #d1ced1;
+}
+
+
+.reveal ul {
+    list-style-type: decimal;
+    color: #595859;
+}
+
+.reveal li {
+	color: #595859;
+}
+
+.reveal .slide section .fragment.highlight-current-blue.current-fragment {
+  color: $d-red !important;
+  font-weight: bold;
+}
+
+*/
+
+
+/*-- scss:rules --*/
+
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+
+.reveal .slide blockquote p {
+  font-size: 0.7em;
+}
+
+.reveal .progress {
+    background: rgba(0,0,0,0);
+    color: rgba(215, 168, 15, 1);
+    height: 6px;
+}
+
+
+.reveal .footer p {
+	color: #A2A2A2;
+	font-size: 0.9em;
+}
+
+.reveal .footer a {
+  color: rgba(5,80,153,.4);
+	font-weight: none;
+	bottom: 0;
+}
+
+
+.reveal .slide-logo {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+
+/* Attribution plugin: text along the right edge of the viewport */
+.attribution{
+  position: absolute;
+  top: 30%;
+  bottom: 35%;
+  left: 110%;
+  right: auto;
+  font-size: 0.35em;
+  pointer-events: none;
+  text-align: right;
+  writing-mode: vertical-rl;
+  transform: translate( -50%, -50% ) scale( 100% ) rotate(-180deg)
+}
+
+/* Attribution plugin: activate pointer events for attribution text only */
+.attribution .content{
+  pointer-events: auto;
+}
+
+
+.attribution2{
+  position: absolute;
+  top: 100%;
+  bottom: 0%;
+  left: 70%;
+  right: 0%;
+  font-size: 0.4em;
+  pointer-events: auto;
+  text-align: right;
+}
+
+
+.reveal div.sourceCode {
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 15px !important;
+}
+
+/* from: https://github.com/mine-cetinkaya-rundel/tidyperspective/blob/main/talks/theme.scss */
+
+
+.reveal .slide .goal {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #ccddeb;
+}
+
+
+/* LISTS
+from: https://github.com/malcolmbarrett/kakashi-quarto-theme/blob/main/_extensions/kakashi/kakashi.scss */
+
+
+
+.reveal .slide ol ul {
+  font-size: 0.9em;
+  list-style-type: none ;
+  text-align: left;
+  font-weight: 500;
+}
+
+.reveal .slide ol ul li {
+  padding-bottom: 5px;
+}
+
+ul li::marker {
+    color: $ncl-blue;
+}
+
+
+
+.biglist ol {
+  counter-reset: my-counter;
+  list-style: none;
+  padding-left: 40px;
+  font-size: 90%;
+  text-align: left;
+}
+
+.biglist ol li {
+  counter-increment: my-counter;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  position: relative;
+  font-size: 100%;
+  margin: 10px 0;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.biglist ol li::before {
+  content: counter(my-counter);
+  color: #fff;
+  font-size: 80%;
+  font-weight: bold;
+  position: absolute;
+  left: -60px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  top: 0%;
+  background: $ncl-blue;
+  border-radius: 60%;
+  text-align: center;
+}
+
+.biglist ul {
+  counter-reset: my-counter;
+  list-style: none;
+  padding-left: 40px;
+  font-size: 90%;
+  text-align: left;
+}
+
+.biglist ul li {
+  counter-increment: my-counter;
+  line-height: 90%;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  position: relative;
+  font-size: 100%;
+  margin: 10px 0;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.biglist ul li::before {
+  content: counter(my-counter);
+  color: $ncl-blue;
+  font-size: 0%;
+  font-weight: bold;
+  position: absolute;
+  left: -50px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  top: 0%;
+  background: $ncl-blue;
+  border-radius: 60%;
+  text-align: center;
+}
+
+
+
+.fragment:not(.current-fragment) {
+  color: $grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) {
+  color: $dark-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) {
+  color: $dark-grey;
+}
+
+section.has-dark-background .current-fragment {
+  color: $grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) strong {
+  color: $dark-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) em {
+  color: $dark-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) a, a > code  {
+  color: $dark-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) code {
+  color: $dark-grey;
+}
+
+section.has-dark-background .fragment:not(.current-fragment) del {
+  color: $dark-grey;
+}
+
+.fragment:not(.current-fragment) code {
+  color: $grey;
+}
+
+.fragment:not(.current-fragment)::before {
+  background-color: lighten($grey, 3%);
+}
+
+section.has-dark-background .fragment:not(.current-fragment)::before {
+  background-color: lighten($dark-grey, 3%);
+}
+
+.fragment:not(.current-fragment) strong {
+  color: $grey;
+}
+
+.fragment:not(.current-fragment) em {
+  color: $grey;
+}
+
+.fragment:not(.current-fragment) del {
+  color: $grey;
+}
+
+.fragment:not(.current-fragment) a {
+  color: $grey;
+}
+
+.current-fragment {
+  color: $body-color;
+}
+
+.reveal
+  div.sourceCode
+  pre
+  code.has-line-highlights
+  > span:not(.highlight-line) {
+  opacity: 0.1 !important;
+}
+
+.reveal
+  div.sourceCode
+  pre
+  code.has-line-highlights
+  > span.highlight-line {
+  font-weight: bold;
+}
+
+
+
+/* More fragments */
+
+.inline-fragment {
+  display: flex;
+}
+
+.inline-fragment p {
+  padding-right: 10px;
+}
+

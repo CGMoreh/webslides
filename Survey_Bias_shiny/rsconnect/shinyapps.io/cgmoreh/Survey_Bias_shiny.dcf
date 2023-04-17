@@ -5,9 +5,9 @@ account: cgmoreh
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8857132
-bundleId: 7091685
+bundleId: 7096638
 url: https://cgmoreh.shinyapps.io/Survey_Bias_shiny/
-when: 1681515944.29379
-lastSyncTime: 1681515944.2938
+when: 1681678312.47291
+lastSyncTime: 1681678312.47292
 asMultiple: FALSE
 asStatic: FALSE

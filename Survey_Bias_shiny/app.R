@@ -99,11 +99,8 @@ ui <- list(
           br(),
           br(),
           h2("Acknowledgements"),
-            p("This app is an adapted fork of the EducationShinyAppTeam's Survey Bias app at Penn State, available at: ", 
+            p("This app is an adaptation of the EducationShinyAppTeam's Survey Bias app at Penn State, available at: ", 
               tags$a(href = "https://github.com/EducationShinyAppTeam/Survey_Bias", "https://github.com/EducationShinyAppTeam/Survey_Bias")),
-            p("The app was initially designed and programmed by Ryan Manigly-Haney
-                with the coding updated by Yuxin Zhang (2017), and Chenese Gray with
-                input from Xigang Zhang (2020).")
         ),
         #### Set up the Biases Page ----
         tabItem(
@@ -246,7 +243,7 @@ ui <- list(
                       br(),
                       "Do you favor or oppose an ordinance that ",
                       tags$em("forbids"),
-                      " surveillance cameras to be placed on Gateshead High St.?",
+                      " surveillance cameras to be placed on Market Ln. in Gateshead?",
                     ),
                     br(), br(),
                     bsButton(
@@ -1053,7 +1050,7 @@ server <- function(input, output, session) {
   observeEvent(input$fixunintentional, {
     output$unintentionalExample <- renderText({
       "Do you favor or oppose an ordinance that does not allow
-      surveillance cameras to be placed on Gateshead High St.?"
+      surveillance cameras to be placed on Market Ln. in Gateshead?"
     })
   })
 
