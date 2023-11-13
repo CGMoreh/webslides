@@ -1,5 +1,25 @@
+---
+title: MExOut Study Abroad
+subtitle: The Motivations, Expectations and Outcomes of Study Abroad among UK undergraduates studying Japanese and Korean
 
-# MExOut Study Abroad: The Motivations, Expectations and Outcomes of Study Abroad among UK undergraduates studying Japanese and Korean
+# Enable banner style title blocks
+title-block-banner: true
+
+# Default for table of contents
+toc: true
+toc-title: Table of contents
+toc-location: left
+toc-depth: 3
+
+page-layout: article
+
+format:
+  html:
+    theme: 
+      light: [matria,customstyle.scss]
+      dark: [slate,customstyle.scss]
+    toc: true
+---
 
 ## Project timeline
 

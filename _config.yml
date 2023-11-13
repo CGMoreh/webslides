@@ -3,3 +3,10 @@ theme: jekyll-theme-minimal
 logo: /assets/img/vienna2.png
 description: This page contains web slides and other materials I used in conference presentations and workshops.
 show_downloads: false
+
+format:
+  html:
+    theme: 
+      light: [matria,customstyle.scss]
+      dark: [slate,customstyle.scss]
+    toc: true
