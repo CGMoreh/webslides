@@ -8,7 +8,8 @@ library("vistime")
 library("tidyverse")
 # library("RColorBrewer")
 library("scales")
-# library("cowplot")
+library("cowplot")
+library("magick")
 
 ### Generate input data
 
@@ -93,19 +94,14 @@ timeline <- rbind(cP1, cP2, c1)
 
 
 timeline <- timeline |> 
-  mutate(colour = case_when(stage == "First\nyear" & cohort != "Cohort P3\nCohort 1\n23/24" ~ "#8DD3C790",
-                            stage == "Middle\nyear(s)" & cohort != "Cohort P3\nCohort 1\n23/24" ~ "#e3e3e380",
-                            stage == "Final\nyear" & cohort != "Cohort P3\nCohort 1\n23/24" ~ "#6d6dab90",
-                            stage == "Post-\ngrad" & cohort != "Cohort P3\nCohort 1\n23/24" ~ "#FB807290",
-                            stage == "First\nyear" & cohort == "Cohort P3\nCohort 1\n23/24" ~ "#8DD3C790",
-                            stage == "Middle\nyear(s)" & cohort == "Cohort P3\nCohort 1\n23/24" ~ "#e3e3e390",
+  mutate(colour = case_when(stage == "First\nyear" & cohort != "Cohort P3\nCohort 1\n23/24" ~ "#8DD3C740",
+                            stage == "Middle\nyear(s)" & cohort != "Cohort P3\nCohort 1\n23/24" ~ "#e3e3e330",
+                            stage == "Final\nyear" & cohort != "Cohort P3\nCohort 1\n23/24" ~ "#6d6dab40",
+                            stage == "Post-\ngrad" & cohort != "Cohort P3\nCohort 1\n23/24" ~ "#FB807240",
+                            stage == "First\nyear" & cohort == "Cohort P3\nCohort 1\n23/24" ~ "#8DD3C7",
+                            stage == "Middle\nyear(s)" & cohort == "Cohort P3\nCohort 1\n23/24" ~ "#e3e3e330",
                             stage == "Final\nyear" & cohort == "Cohort P3\nCohort 1\n23/24" ~ "#6d6dab90",
-                            stage == "Post-\ngrad" & cohort == "Cohort P3\nCohort 1\n23/24" ~ "#FB807290"),
-         shape = case_when(stage == "First\nyear" ~ 19,
-                           stage == "Middle\nyear(s)" ~ NA,
-                           stage == "Final\nyear" ~ 15,
-                           stage == "Post-\ngrad" ~ 17)
-         
+                            stage == "Post-\ngrad" & cohort == "Cohort P3\nCohort 1\n23/24" ~ "#FB807290")
          )
 
 # inserting empty row at end for graphing space
@@ -162,7 +158,7 @@ plot_timeline2 <- plot_timeline +
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank(),
     axis.text.y = element_text(size = 10, color = "black"),
-    plot.margin = unit(c(0, 0.2, 0.2, 0.2), "inches"),
+    plot.margin = unit(c(0, 0, 0.2, 0.2), "inches"),
     axis.text.x = element_text(size = 9, color = "black", angle = 0, vjust = 1, hjust = 0)
     ) +
 
@@ -192,65 +188,57 @@ plot_timeline2 <- plot_timeline +
     # limits = c(as.POSIXct("2023-08-15"), as.POSIXct("2028-01-01")),
     # labels = function(x) paste(month(x, label = TRUE), "\n", year(x))
     ) + 
-  annotate("text", x = as.POSIXct(timeline$dataColDate[7]), y = 0.15, label = format_x_2(timeline$dataColDate[7]), size = 3.2, lineheight = 0.9, hjust = 1)  + 
-  annotate("text", x = as.POSIXct(timeline$dataColDate[12]), y = 0.15, label = format_x_2(timeline$dataColDate[12]), size = 3.2, lineheight = 0.9, hjust = 1)  + 
+  annotate("text", x = as.POSIXct(timeline$dataColDate[7]), y = 0.13, label = format_x_2(timeline$dataColDate[7]), size = 3.2, lineheight = 0.9, hjust = 1)  + 
+  annotate("text", x = as.POSIXct(timeline$dataColDate[12]), y = 0.13, label = format_x_2(timeline$dataColDate[12]), size = 3.2, lineheight = 0.9, hjust = 1)  + 
   coord_cartesian(ylim = c(1,8.2), clip = "off") +
   annotate(
-  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(1)], y = 6.2, ymin = 6.2, ymax = 0.6, size = 0.7, colour = "#606060", shape = 19, stroke = 1.6) +
+  "pointrange", x = as.POSIXct(timeline$dataColDate)[1], y = 6.2, ymin = 6, ymax = 0.6, size = 1, colour = "black", fill = "#60606000", shape = 21, stroke = 1) +
   annotate(
-  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(5,7,8)], y = 4.2, ymin = 4.2, ymax = 0.6, size = 0.7, colour = c("#606060", "#606060", "#FF000050"), shape = c(19, 15, 2), stroke = 1.6) +
+  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(5,7,8)], y = 4.2, ymin = 4, ymax = 0.6, size = 1, colour = c("black", "black", "#800020"), fill = c("#606060", "#606060", "#80002000"), shape = c(21, 22, 24), stroke = 1) +
   annotate(
-  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(9)]-months(3), y = 2.2, ymin = 2.2, ymax = 0.6, size = 0.7, colour = "#606060", shape = c(19), stroke = 1.6) +
+  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(9)]-months(3), y = 2.2, ymin = 2, ymax = 0.6, size = 1, colour = "black", fill = "#606060", shape = 21, stroke = 1) +
   annotate(
-  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(9)], y = 2.2, ymin = 2.2, ymax = 0.6, size = 1, linewidth = 1.3, colour = c("black"), shape = c(19), stroke = 1.2) +
+  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(9)], y = 2.2, ymin = 2, ymax = 0.6, size = 1, linewidth = 1.3, colour = c("black"), shape = 21, stroke = 1.6) +
   annotate(
-  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(11, 12)], y = 2.2, ymin = 2.2, ymax = 0.6, size = 0.7, colour = c("#FF000050", "#FF000050"), shape = c(0, 2), stroke = 1.6) + 
-  annotate("rect", xmin = as.POSIXct(timeline$dataColDate)[c(9)]-months(2), xmax = as.POSIXct(timeline$dataColDate)[c(9)]+months(8), ymin = -0.5, ymax = 3.93, alpha = .4) 
+  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(11, 12)], y = 2.2, ymin = 2, ymax = 0.6, size = 1, colour = c("#800020", "#800020"), fill = c("#80002070", "#80002000"), shape = c(22, 24), stroke = 1) + 
+  annotate("rect", xmin = as.POSIXct(timeline$dataColDate)[c(9)]-months(2), xmax = as.POSIXct(timeline$dataColDate)[c(9)]+months(8), ymin = -0.5, ymax = 3.93, alpha = .4)
 
 plot_timeline2
 
 
-# ### Create a legend
-# data_legend <- timeline_2 %>%
-#   distinct(stage, .keep_all=T) %>%
-#   arrange(stage)
-# data_legend$start <- as.Date("2028-01-01")
-# data_legend$end <- as.Date("2028-01-02")
-# data_legend$Patient <- "Key"
-# data_legend
-# plot_legend <- gg_vistime(data = data_legend,
-#                           col.group = "cohort",
-#                           col.event = "stage",
-#                           show_labels = TRUE,
-#                           linewidth = 20,
-#                           title = "Legend")
-# plot_legend
-# 
-# # Tweak the legend plot
-# plot_legend <- plot_legend + theme_void() +
-#   ggplot2::theme(
-#     plot.title = element_text(size=11),
-#     axis.title.x=element_blank(),
-#     axis.text.x=element_blank(),
-#     axis.ticks.x=element_blank(),
-#     axis.title.y=element_blank(),
-#     axis.text.y=element_blank(),
-#     axis.ticks.y=element_blank())
-# plot_legend
-# 
-# 
-# ### Combine the main plot and legend into a single figure
-# plot_combined <- plot_grid(plot_data, plot_legend,
-#                            rel_widths = c(1, 0.15))
-# plot_combined
+## Changing labels on plot
+## see: https://stackoverflow.com/a/66611196/16962987
 
-### Save plot
-# ggplot2::ggsave(plot_combined, file = "timeline_plot_mock_data.pdf", dpi=300, height=4, width=7, units="in")
-
-
-## Changing labels
 g.d <- ggplot_build(plot_timeline2)
 g.d$data[[4]]$size <- 3.5
 rebuilt_timeline <- ggplot_gtable(g.d)
 
 plot(rebuilt_timeline)
+
+
+
+## Legend
+
+colour <- timeline[timeline$cohort == "Cohort P3\nCohort 1\n23/24" & timeline$stage != "Middle\nyear(s)", "colour"]
+
+shape <- c(21, 22, 24)
+
+fill <- c("#60606050", "#60606050", "#60606050")
+
+labs <- c("Stage 1: First year", "Stage 2: Final year", "Stage 3: Post-graduation")
+
+legend <- ggplot() + theme_minimal() +
+  geom_point(aes(x=labs, y=labs, colour=labs, shape=labs, fill = fill), size=3, stroke = 1.5) +
+  # geom_point(aes(x=labs, y=labs,  fill = fill), size=3, stroke = 1.5) +
+  scale_shape_manual("Data collection", values = shape)  +
+  scale_colour_manual("Data collection", values = colour) +
+  scale_fill_manual("Methods", values = fill, labels = "Survey + Interview") 
+
+legend <- ggpubr::get_legend(legend)
+
+## With legend
+
+plot_combined <- plot_grid(rebuilt_timeline, legend,
+                           rel_widths = c(1.4, 0.4))
+plot_combined
+

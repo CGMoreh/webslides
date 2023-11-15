@@ -1,6 +1,6 @@
 ---
-title: MExOut Study Abroad
-subtitle: The Motivations, Expectations and Outcomes of Study Abroad among UK undergraduates studying Japanese and Korean
+title: MEXOUT Study Abroad
+subtitle: Motivations, Expectations, Experiences and Outcomes of Study Abroad among UK undergraduates studying Japanese and Korean
 
 # Enable banner style title blocks
 title-block-banner: true
@@ -23,9 +23,15 @@ format:
 
 ## Project timeline
 
-The **MExOut Study Abroad** project is envisaged as a longitudinal cross-institutional mixed-methods research project. The target population is all UK undergraduates studying on a Japanese or/and Korean language/studies course that has a compulsory study abroad year or semester as part of the degree.
+::: {.column-screen-inset-right}
 
-It aims to interview one or several cohorts of UK undergraduate students on a Japanese or Korean course at three time-points during their university and post-university careers: 
+![Fig. 1: MEXOUT data collection timeline](cohort_planning_legend.png)
+
+:::
+
+The **MEXOUT Study Abroad** project is envisaged as a longitudinal cross-institutional mixed-methods research project. The target population is all UK undergraduates studying on a Japanese or/and Korean language/studies course that has a compulsory study abroad year or semester as part of the degree.
+
+It aims to interview UK undergraduate students on a Japanese or Korean course at three time-points during their university and post-university careers: 
 
 - at the beginning of their *first year* of studies; 
 - in their *final year* of studies, following return from study abroad;
@@ -35,14 +41,17 @@ A Pilot phase of the project began in the 2019/2020 academic year, with an onlin
 
 These two cohorts make up the single-institution pilot phase of the project, and in the 2023/2024 academic year Cohort P2 students (the first post-pandemic student cohort to have taken part in study abroad in their third year of studies on a 4-year degree) also returned from study abroad, making possible the first post-SA data collection round.
 
-A funding application is made to implement the first cross-institutional first-year (pre-SA) cohort survey (1.1.1). This will enable the research team to address the body of research questions that aims to investigate the connections between social mobility and international student mobility on a nationally representative sample. The project cross-section for which funding is sought is highlighted in light grey in the chart below. 
+A funding application is made to implement the first cross-institutional first-year (pre-SA) cohort survey (MEXOUT-SA 1.1.1). This will enable the research team to address the body of research questions that aims to investigate the connections between social mobility and international student mobility on a nationally representative sample. The project cross-section for which funding is sought is highlighted in light grey in the chart below. 
 
 
-![Fig. 1: Study Cohorts](cohort_planning_labelled.png)
 
 <!-- ## Workplan timeline for MExtOut 1.1.1 -->
 
 
+
+## Subproject naming convention
+
+![Fig. 2: Project component naming convention](naming_graph.png)
 
 
 
