@@ -10,6 +10,7 @@ library("tidyverse")
 library("scales")
 library("cowplot")
 library("magick")
+library("ggtext")
 
 ### Generate input data
 
@@ -32,6 +33,14 @@ c["stage"] <- c("First\nyear",
                 "Middle\nyear(s)",
                 "Final\nyear",
                 "Post-\ngrad")
+
+startDate <- as.Date(c(
+  "2019-09-15",
+  "2020-09-15",
+  "2023-09-15"
+))
+
+
 c$start <- as.Date(c$start)
 c$end <- as.Date(c$end)
 c$dataColDate <- as.Date(c$dataColDate)
@@ -116,6 +125,8 @@ timeline <- add_row(timeline, cohort = "")
 # )
 
 
+
+
 ## Define date formats
 
 format_x_1 <- function(x) {
@@ -191,22 +202,25 @@ plot_timeline2 <- plot_timeline +
   annotate("text", x = as.POSIXct(timeline$dataColDate[7]), y = 0.13, label = format_x_2(timeline$dataColDate[7]), size = 3.2, lineheight = 0.9, hjust = 1)  + 
   annotate("text", x = as.POSIXct(timeline$dataColDate[12]), y = 0.13, label = format_x_2(timeline$dataColDate[12]), size = 3.2, lineheight = 0.9, hjust = 1)  + 
   coord_cartesian(ylim = c(1,8.2), clip = "off") +
+  ## Cohort P1
   annotate(
   "pointrange", x = as.POSIXct(timeline$dataColDate)[1], y = 6.2, ymin = 6, ymax = 0.6, size = 1, colour = "black", fill = "#60606000", shape = 21, stroke = 1) +
+  ## Cohort P2
   annotate(
   "pointrange", x = as.POSIXct(timeline$dataColDate)[c(5,7,8)], y = 4.2, ymin = 4, ymax = 0.6, size = 1, colour = c("black", "black", "#800020"), fill = c("#606060", "#606060", "#80002000"), shape = c(21, 22, 24), stroke = 1) +
+  ## Cohort P3
   annotate(
-  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(9)]-months(3), y = 2.2, ymin = 2, ymax = 0.6, size = 1, colour = "black", fill = "#606060", shape = 21, stroke = 1) +
+  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(9)]-months(3), y = 2.2, ymin = 2, ymax = 0.6, size = 1, colour = "black", fill = "#60606000", shape = 21, stroke = 1) +
   annotate(
   "pointrange", x = as.POSIXct(timeline$dataColDate)[c(9)], y = 2.2, ymin = 2, ymax = 0.6, size = 1, linewidth = 1.3, colour = c("black"), shape = 21, stroke = 1.6) +
   annotate(
-  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(11, 12)], y = 2.2, ymin = 2, ymax = 0.6, size = 1, colour = c("#800020", "#800020"), fill = c("#80002070", "#80002000"), shape = c(22, 24), stroke = 1) + 
+  "pointrange", x = as.POSIXct(timeline$dataColDate)[c(11, 12)], y = 2.2, ymin = 2, ymax = 0.6, size = 1, colour = c("#800020", "#800020"), fill = c("#80002000", "#80002000"), shape = c(22, 24), stroke = 1) + 
   annotate("rect", xmin = as.POSIXct(timeline$dataColDate)[c(9)]-months(2), xmax = as.POSIXct(timeline$dataColDate)[c(9)]+months(8), ymin = -0.5, ymax = 3.93, alpha = .4)
 
 plot_timeline2
 
 
-## Changing labels on plot
+## Resizing labels on plot
 ## see: https://stackoverflow.com/a/66611196/16962987
 
 g.d <- ggplot_build(plot_timeline2)
@@ -219,26 +233,31 @@ plot(rebuilt_timeline)
 
 ## Legend
 
-colour <- timeline[timeline$cohort == "Cohort P3\nCohort 1\n23/24" & timeline$stage != "Middle\nyear(s)", "colour"]
+colour <- c(NA,
+  timeline[timeline$cohort == "Cohort P3\nCohort 1\n23/24" & timeline$stage != "Middle\nyear(s)", "colour"],
+  NA, "#2c2c2c", "#5c5c5c")
+shape <- c(NA, 21, 22, 24, NA, 1, 16)
+labs <- c("**Stages:**", "Stage 1: First year", "Stage 2: Final year", "Stage 3: Post-graduation", "**Methods:**", "Survey", "Survey + Interviews / Focus groups")
+labs <- factor(labs, levels = labs)
 
-shape <- c(21, 22, 24)
-
-fill <- c("#60606050", "#60606050", "#60606050")
-
-labs <- c("Stage 1: First year", "Stage 2: Final year", "Stage 3: Post-graduation")
-
-legend <- ggplot() + theme_minimal() +
-  geom_point(aes(x=labs, y=labs, colour=labs, shape=labs, fill = fill), size=3, stroke = 1.5) +
-  # geom_point(aes(x=labs, y=labs,  fill = fill), size=3, stroke = 1.5) +
-  scale_shape_manual("Data collection", values = shape)  +
-  scale_colour_manual("Data collection", values = colour) +
-  scale_fill_manual("Methods", values = fill, labels = "Survey + Interview") 
+legend <- 
+  ggplot() + theme_minimal() +
+  geom_point(aes(x=labs, y=labs, colour=labs, shape=labs)) +
+  scale_shape_manual("**Data collection**", values = shape)  +
+  scale_colour_manual("**Data collection**", values = colour) + 
+  guides(colour = guide_legend(override.aes = list(size=c(NA, 5, 4, 4, NA, 5, 5),
+                                                   stroke = c(NA, 1.5, 1.5, 1.5, NA, 1, 1)))) +
+  theme(legend.text = ggtext::element_markdown(),
+        legend.title = ggtext::element_markdown()) # to recognise bold text in markdown
 
 legend <- ggpubr::get_legend(legend)
+plot(legend)
+
+
 
 ## With legend
 
 plot_combined <- plot_grid(rebuilt_timeline, legend,
-                           rel_widths = c(1.4, 0.4))
+                           rel_widths = c(1.8, 0.5))
 plot_combined
 
