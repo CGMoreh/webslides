@@ -113,13 +113,17 @@ footer {
   justify-content: space-between;
 }
 #resetButton,
-#statsButton {
+#statsButton,
+#downloadSessionData,
+#downloadAllUserData {
   display: none;
 }
 #aboutButton,
 #resetButton,
 #rulesButton,
-#statsButton {
+#statsButton,
+#downloadSessionData,
+#downloadAllUserData {
   font-size: 1rem;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -129,18 +133,24 @@ footer {
 #aboutButton:hover,
 #resetButton:hover,
 #rulesButton:hover,
-#statsButton:hover {
+#statsButton:hover,
+#downloadSessionData:hover,
+#downloadAllUserData:hover {
   background-color: #fff;
 }
 #aboutButton,
 #resetButton,
-#statsButton {
+#statsButton,
+#downloadSessionData,
+#downloadAllUserData {
   margin-left: 1rem;
 }
 #aboutButton:hover,
 #resetButton:hover,
 #rulesButton:hover,
-#statsButton:hover {
+#statsButton:hover,
+#downloadSessionData:hover,
+#downloadAllUserData:hover {
   cursor: pointer;
 }
 #door1,
@@ -265,7 +275,9 @@ body {
   #aboutButton,
   #resetButton,
   #rulesButton,
-  #statsButton {
+  #statsButton,
+  #downloadSessionData,
+  #downloadAllUserData {
     padding: 0.5rem;
     font-size: 0.95rem;
   }

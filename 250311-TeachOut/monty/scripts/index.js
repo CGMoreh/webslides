@@ -44,6 +44,69 @@ let internalOption;
 // captures the random occurrence of game and stores it as a version #
 let version;
 
+// Store data for individual sessions
+let userGameData = [];
+
+// Store aggregated data for all users
+let allGameData = JSON.parse(localStorage.getItem('allGameData')) || [];
+
+function sendDataToGoogleSheet(data) {
+  const url = 'https://script.google.com/macros/library/d/1tcGhw-TEXdw7b3oEOuiHr6LCzfOrBhgLCSVUUEVPBqTCRVql56alyLKf/1'; // Replace with your Google Apps Script URL
+
+  fetch(url, {
+      method: 'POST',
+      mode: 'no-cors',  // Required for Google Apps Script
+      headers: {
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+  })
+  .then(() => console.log("Data successfully sent to Google Sheets"))
+  .catch(err => console.error("Error sending data:", err));
+}
+
+function recordGameData(stayOrSwitch, winOrLose) {
+    const gameData = {
+        timestamp: new Date().toISOString(),
+        choice: stayOrSwitch ? 'Switch' : 'Stay',
+        result: winOrLose ? 'Win' : 'Loss'
+    };
+
+    userGameData.push(gameData);
+    allGameData.push(gameData);
+    localStorage.setItem('allGameData', JSON.stringify(allGameData));
+
+    // Send data to Google Sheets
+    sendDataToGoogleSheet([gameData]);
+}
+
+function downloadCSV(data, filename) {
+    const csvHeader = 'Timestamp,Choice,Result\n';
+    const csvRows = data.map(row => `${row.timestamp},${row.choice},${row.result}`).join("\n");
+    const csvContent = csvHeader + csvRows;
+
+    const blob = new Blob([csvContent], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+
+// Add buttons for download functionality
+document.querySelector('#downloadSessionData').addEventListener('click', () => {
+    downloadCSV(userGameData, 'user_session_data.csv');
+});
+
+document.querySelector('#downloadAllUserData').addEventListener('click', () => {
+    downloadCSV(allGameData, 'all_user_data.csv');
+});
+
+
+
 /* MODAL FUNCTIONALITY (RULES, ABOUT, STATS)
 -------------------------------------------------------- */
 // Get the modal
@@ -194,6 +257,8 @@ function switchDoors(bool, sack) {
   document.getElementById('hoversheet22').disabled = true;
   document.getElementById('hoversheet32').disabled = true;
   document.getElementById('statsButton').style.display = 'block';
+  document.getElementById('downloadSessionData').style.display = 'block';
+  document.getElementById('downloadAllUserData').style.display = 'block';
   document.querySelector('#door12').setAttribute('onclick', 'reset()');
   document.querySelector('#door22').setAttribute('onclick', 'reset()');
   document.querySelector('#door32').setAttribute('onclick', 'reset()');
@@ -202,9 +267,11 @@ function switchDoors(bool, sack) {
     document.querySelector(`#door${internalChoice}2`).style.backgroundImage = 'url(./assets/job.png)';
     if (switchDoor === true) {
       switchLosses++;
+      recordGameData(true, false);
       document.querySelector('#message',).innerHTML = `<p class="lose">Oh no, the job was behind door #${internalChoice}.</p>${resetP}`;
     } else if (switchDoor === false) {
       stayWins++;
+      recordGameData(false, true);
       document.querySelector('#message',).innerHTML = `<p class="win">You win! In this case, it worked to stay with door #${internalChoice}.</p>${resetP}`;
     }
   } else {
@@ -213,9 +280,11 @@ function switchDoors(bool, sack) {
 
     if (switchDoor === true) {
       switchWins++;
+      recordGameData(true, true);
       document.querySelector('#message',).innerHTML = `<p class="win">You win! Switching to door #${internalOption} was a good choice.</p>${resetP}`;
     } else if (switchDoor === false) {
       stayLosses++;
+      recordGameData(false, false);
       document.querySelector('#message',).innerHTML = `<p class="lose">Oh no, the job was behind door #${internalOption}.</p>${resetP}`;
     }
   }
