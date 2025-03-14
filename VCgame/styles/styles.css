@@ -9,6 +9,7 @@ body {
   /* background: linear-gradient(rgba(250, 250, 250, 0) 13%, rgba(250, 250, 250, 0.5) 15%, rgba(250, 250, 250, 1) 100%), url('../assets/MakeDealHQ.png'); */
   background: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url('../assets/BreakDealNoTitle.png');
   background-size: cover;
+  background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #222;
