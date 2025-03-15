@@ -52,16 +52,18 @@ let allGameData = JSON.parse(localStorage.getItem('allGameData')) || [];
 
 
 function sendDataToGoogleSheet(data) {
-  const url = 'https://script.google.com/macros/s/AKfycbxuf4SFI0-VuI_WgSRcrQa9bXxryRPc4sC4XYPhBOPS53Z4cVY7q3DQcLMlt1xHL7TV0Q/exec'; // Replace with your Google Apps Script URL
+  const url = 'https://script.google.com/macros/s/AKfycby954X8lnSnG-iVTLyTGQ5YcxuExhmn5ln9hJc8ruwrpM1MCEmVtx-8o7IXWANXMpZ9Iw/exec'; // Replace with your Google Apps Script URL
 
   fetch(url, {
       method: 'POST',
+      mode: 'no-cors', // Temporary workaround for CORS issue
       headers: {
           'Content-Type': 'application/json'
       },
       body: JSON.stringify(Array.isArray(data) ? data : [data]) // Ensure data is always an array
   })
-  .then(() => console.log("Data successfully sent to Google Sheets"))
+  .then(response => response.text()) 
+  .then(text => console.log("Data successfully sent:", text))
   .catch(err => console.error("Error sending data:", err));
 }
 
