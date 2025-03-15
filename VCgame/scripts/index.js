@@ -50,20 +50,22 @@ let userGameData = [];
 // Store aggregated data for all users
 let allGameData = JSON.parse(localStorage.getItem('allGameData')) || [];
 
+
 function sendDataToGoogleSheet(data) {
-  const url = 'https://script.google.com/macros/library/d/1tcGhw-TEXdw7b3oEOuiHr6LCzfOrBhgLCSVUUEVPBqTCRVql56alyLKf/1'; // Replace with your Google Apps Script URL
+  const url = 'https://script.google.com/macros/s/AKfycbx4OBsawym-4Gxu1MUmXdjQ2Cc7BNjmuPM7hbWWscDWc0oIMLYdJht7riZX-87CMQ6DhA/exec'; // Replace with your Google Apps Script URL
 
   fetch(url, {
       method: 'POST',
-      mode: 'no-cors',  // Required for Google Apps Script
       headers: {
           'Content-Type': 'application/json'
       },
-      body: JSON.stringify(data)
+      body: JSON.stringify(Array.isArray(data) ? data : [data]) // Ensure data is always an array
   })
   .then(() => console.log("Data successfully sent to Google Sheets"))
   .catch(err => console.error("Error sending data:", err));
 }
+
+
 
 function recordGameData(stayOrSwitch, winOrLose) {
     const gameData = {
