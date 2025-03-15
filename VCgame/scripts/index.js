@@ -52,7 +52,7 @@ let allGameData = JSON.parse(localStorage.getItem('allGameData')) || [];
 
 
 function sendDataToGoogleSheet(data) {
-  const url = 'https://script.google.com/macros/s/AKfycbx4OBsawym-4Gxu1MUmXdjQ2Cc7BNjmuPM7hbWWscDWc0oIMLYdJht7riZX-87CMQ6DhA/exec'; // Replace with your Google Apps Script URL
+  const url = 'https://script.google.com/macros/s/AKfycbxuf4SFI0-VuI_WgSRcrQa9bXxryRPc4sC4XYPhBOPS53Z4cVY7q3DQcLMlt1xHL7TV0Q/exec'; // Replace with your Google Apps Script URL
 
   fetch(url, {
       method: 'POST',
